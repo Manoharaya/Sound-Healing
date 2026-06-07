@@ -2,6 +2,7 @@
 import { cache } from 'react';
 
 import { createAdminClient } from '@/lib/supabase/admin';
+import { MOCK_SERVICES } from '@/lib/mocks';
 
 export const getServices = cache(async () => {
   try {
@@ -12,19 +13,13 @@ export const getServices = cache(async () => {
       .select('*');
 
     if (error) {
-      // Handle missing table or schema discrepancies gracefully
-      if (error.message.includes('not found') || error.message.includes('schema cache')) {
-        // Fallback: try a safer select without specific columns if it was a column error,
-        // but if it's a table error, just return empty.
-        return [];
-      }
-      console.error('Error fetching services:', error.message);
-      return [];
+      console.warn('Error fetching services (using mock fallback):', error.message);
+      return MOCK_SERVICES;
     }
 
     return services || [];
   } catch (error) {
-    console.error('Server error fetching services:', error);
-    return [];
+    console.warn('Server error fetching services (using mock fallback):', error);
+    return MOCK_SERVICES;
   }
 });

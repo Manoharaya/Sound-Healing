@@ -2,6 +2,7 @@
 import { cache } from 'react';
 
 import { createAdminClient } from '@/lib/supabase/admin';
+import { MOCK_TESTIMONIALS } from '@/lib/mocks';
 
 export const getTestimonials = cache(async () => {
   try {
@@ -12,17 +13,13 @@ export const getTestimonials = cache(async () => {
       .order('created_at', { ascending: false });
 
     if (error) {
-      // Return empty array quietly if table doesn't exist yet
-      if (error.message.includes('not found') || error.message.includes('schema cache')) {
-        return [];
-      }
-      console.error('Error fetching testimonials:', error.message);
-      return [];
+      console.warn('Error fetching testimonials (using mock fallback):', error.message);
+      return MOCK_TESTIMONIALS;
     }
 
     return testimonials || [];
   } catch (error) {
-    console.error('Server error fetching testimonials:', error);
-    return [];
+    console.warn('Server error fetching testimonials (using mock fallback):', error);
+    return MOCK_TESTIMONIALS;
   }
 });

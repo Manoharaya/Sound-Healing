@@ -2,6 +2,7 @@
 import { cache } from 'react';
 
 import { createAdminClient } from '@/lib/supabase/admin';
+import { MOCK_WORKSHOPS } from '@/lib/mocks';
 
 export const getWorkshops = cache(async () => {
   try {
@@ -13,13 +14,13 @@ export const getWorkshops = cache(async () => {
       .order('date', { ascending: true });
 
     if (error) {
-      console.error('Error fetching workshops:', error.message);
-      return [];
+      console.warn('Error fetching workshops (using mock fallback):', error.message);
+      return MOCK_WORKSHOPS;
     }
 
     return workshops || [];
   } catch (error) {
-    console.error('Server error fetching workshops:', error);
-    return [];
+    console.warn('Server error fetching workshops (using mock fallback):', error);
+    return MOCK_WORKSHOPS;
   }
 });

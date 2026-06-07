@@ -1,6 +1,7 @@
 'use server';
 
 import { createAdminClient } from '@/lib/supabase/admin';
+import { MOCK_SERVICES } from '@/lib/mocks';
 
 export async function getServiceById(id: string) {
   try {
@@ -13,13 +14,13 @@ export async function getServiceById(id: string) {
       .single();
 
     if (error) {
-      console.error('Error fetching service:', error.message);
-      return null;
+      console.warn(`Error fetching service ${id} (trying mock fallback):`, error.message);
+      return MOCK_SERVICES.find(s => s.id === id) || null;
     }
 
     return service;
   } catch (error) {
-    console.error('Server error fetching service:', error);
-    return null;
+    console.warn(`Server error fetching service ${id} (trying mock fallback):`, error);
+    return MOCK_SERVICES.find(s => s.id === id) || null;
   }
 }

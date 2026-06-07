@@ -1,6 +1,7 @@
 'use server';
 
 import { createAdminClient } from '@/lib/supabase/admin';
+import { MOCK_WORKSHOPS } from '@/lib/mocks';
 
 export async function getWorkshopById(id: string) {
   try {
@@ -13,13 +14,13 @@ export async function getWorkshopById(id: string) {
       .single();
 
     if (error) {
-      console.error('Error fetching workshop:', error.message);
-      return null;
+      console.warn(`Error fetching workshop ${id} (trying mock fallback):`, error.message);
+      return MOCK_WORKSHOPS.find(w => w.id === id) || null;
     }
 
     return workshop;
   } catch (error) {
-    console.error('Server error fetching workshop:', error);
-    return null;
+    console.warn(`Server error fetching workshop ${id} (trying mock fallback):`, error);
+    return MOCK_WORKSHOPS.find(w => w.id === id) || null;
   }
 }
