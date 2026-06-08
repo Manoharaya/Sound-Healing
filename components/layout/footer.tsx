@@ -21,25 +21,37 @@ export function Footer() {
                     {/* Brand */}
                     <div className="md:col-span-1">
                         <Link href="/" className="block mb-12 group transition-all duration-500 w-[240px]">
-                            <div className="relative w-full aspect-square overflow-hidden transition-all rounded-xl shadow-premium">
-                                <Image 
-                                    src="/lemuria-assets/logo/footer-logo.png" 
-                                    alt="Lemuria Healing" 
-                                    fill
-                                    sizes="(max-width: 768px) 100vw, 300px"
-                                    className="object-cover transition-transform duration-[1.5s] group-hover:scale-[1.05]" 
-                                />
+                            <div className="flex items-center gap-3">
+                                {/* Heart/Pulse SVG Icon */}
+                                <div className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10 shadow-premium group-hover:scale-105 transition-all duration-500">
+                                    <svg 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        viewBox="0 0 24 24" 
+                                        fill="none" 
+                                        stroke="currentColor" 
+                                        strokeWidth="2.5" 
+                                        strokeLinecap="round" 
+                                        strokeLinejoin="round" 
+                                        className="w-6 h-6 text-brand-gold"
+                                    >
+                                        <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                                    </svg>
+                                </div>
+                                <div className="flex flex-col text-left font-sans">
+                                    <span className="text-base font-bold tracking-[0.25em] text-white uppercase">Heart</span>
+                                    <span className="text-[10px] font-bold tracking-[0.4em] text-brand-gold uppercase">Strong</span>
+                                </div>
                             </div>
                         </Link>
                         <p className="text-white/40 text-sm leading-relaxed mb-8 font-light italic">
-                            &ldquo;Restoring harmony through sacred vibrational therapy and the wisdom of kinesiology.&rdquo;
+                            &ldquo;Empowering physical wellness and emotional resilience through grounded kinesiology and sound therapy education.&ldquo;
                         </p>
                         <div className="flex gap-10">
-                            <a href="https://instagram.com/lemuriahealing" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-gold transition-colors">
+                            <a href="https://instagram.com/heartstrong" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-gold transition-colors">
                                 <Instagram className="w-5 h-5" />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a href="https://facebook.com/lemuriahealing" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-gold transition-colors">
+                            <a href="https://facebook.com/heartstrong" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-gold transition-colors">
                                 <Facebook className="w-5 h-5" />
                                 <span className="sr-only">Facebook</span>
                             </a>
@@ -53,6 +65,9 @@ export function Footer() {
                             <li><Link href="/services" className="text-white/40 hover:text-white text-sm transition-colors font-light">Modalities</Link></li>
                             <li><Link href="/coaching" className="text-white/40 hover:text-white text-sm transition-colors font-light">Divine Coaching</Link></li>
                             <li><Link href="/sound-healing" className="text-white/40 hover:text-white text-sm transition-colors font-light">Sound Sanctuary</Link></li>
+                            <li><Link href="/friday-unwind" className="text-white/40 hover:text-white text-sm transition-colors font-light">Friday Unwind</Link></li>
+                            <li><Link href="/saturday-reset" className="text-white/40 hover:text-white text-sm transition-colors font-light">Saturday Reset</Link></li>
+                            <li><Link href="/sunday-restoration" className="text-white/40 hover:text-white text-sm transition-colors font-light">Sunday Restoration</Link></li>
                             <li><Link href="/workshops" className="text-white/40 hover:text-white text-sm transition-colors font-light">Gatherings</Link></li>
                         </ul>
                     </div>
@@ -76,8 +91,8 @@ export function Footer() {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.2em] font-bold text-white/20 gap-6 pt-12 border-t border-white/5">
-                    <p>© {currentYear} Lemuria Healing. All Rights Reserved.</p>
+                <div className="flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.25em] font-bold text-white/20 gap-6 pt-12 border-t border-white/5">
+                    <p>© {currentYear} Heart Strong. All Rights Reserved.</p>
                     <div className="flex items-center gap-2">
                         <span>Designed for</span>
                         <span className="text-brand-gold">Jenny Gillson</span>

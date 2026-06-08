@@ -23,22 +23,27 @@ export default function AdminLayout({
             <aside className="w-80 bg-white border-r border-brand-teal/5 sticky top-0 h-screen hidden lg:flex flex-col z-50 shadow-premium">
                 <div className="p-10">
                     <Link href="/" className="flex flex-col items-center group transition-all duration-500">
-                        <div className="bg-[#FBF9F4] rounded-[48px] p-10 border border-brand-teal/5 shadow-premium overflow-hidden mb-8 group-hover:bg-[#FBF9F4]/90 transition-all">
-                            <Image 
-                                src="/lemuria-assets/logo/logo-transparent.png" 
-                                alt="Lemuria Portal" 
-                                width={200}
-                                height={128}
-                                className="h-32 w-auto object-contain transition-transform duration-500 group-hover:scale-[1.05] mix-blend-multiply" 
-                            />
+                        <div className="w-20 h-20 bg-brand-teal/5 rounded-[24px] flex items-center justify-center border border-brand-teal/10 shadow-premium overflow-hidden mb-8 group-hover:scale-105 transition-all">
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                viewBox="0 0 24 24" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                strokeWidth="2.5" 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                className="w-10 h-10 text-brand-teal"
+                            >
+                                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
                         </div>
                         <div className="flex flex-col items-center text-center">
                             <span className="text-xl font-serif text-brand-text tracking-tight">
-                                Lemuria <span className="text-brand-teal italic font-light">Portal</span>
+                                Heart <span className="text-brand-teal italic font-light">Strong</span>
                             </span>
                             <div className="flex items-center gap-2 mt-2">
                                  <div className="w-3 h-[1px] bg-brand-gold/40"></div>
-                                 <p className="text-[9px] font-bold text-brand-gold uppercase tracking-[0.3em]">Guardian Environment</p>
+                                 <p className="text-[9px] font-bold text-brand-gold uppercase tracking-[0.3em]">Admin Environment</p>
                             </div>
                         </div>
                     </Link>
@@ -74,19 +79,23 @@ export default function AdminLayout({
                 <div className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-multiply" 
                      style={{ backgroundImage: "url('/lemuria-assets/backgrounds/beige-texture.jpg')", backgroundSize: 'cover' }}></div>
 
-                {/* Mobile Header (simplified) */}
                 <header className="lg:hidden h-24 bg-white border-b border-brand-teal/5 flex items-center justify-between px-8 sticky top-0 z-50 shadow-sm">
                       <Link href="/" className="flex items-center gap-3">
-                        <div className="w-16 h-16 bg-[#FBF9F4] rounded-full flex items-center justify-center border border-brand-teal/10 overflow-hidden shadow-sm">
-                            <Image 
-                                src="/lemuria-assets/logo/logo-transparent.png" 
-                                alt="Logo" 
-                                width={100}
-                                height={64}
-                                className="h-16 w-auto object-contain mix-blend-multiply" 
-                            />
+                        <div className="w-10 h-10 bg-brand-teal/5 rounded-xl flex items-center justify-center border border-brand-teal/10 overflow-hidden shadow-sm">
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                viewBox="0 0 24 24" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                strokeWidth="2.5" 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                className="w-5 h-5 text-brand-teal"
+                            >
+                                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                            </svg>
                         </div>
-                        <span className="text-lg font-serif text-brand-text">Lemuria</span>
+                        <span className="text-lg font-serif text-brand-text">Heart Strong</span>
                     </Link>
                     <div className="w-10 h-10 rounded-full bg-brand-teal/5 flex items-center justify-center">
                         <Users className="w-5 h-5 text-brand-teal" />

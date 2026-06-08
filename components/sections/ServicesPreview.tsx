@@ -26,7 +26,7 @@ export function ServicesPreview({ services }: ServicesPreviewProps) {
     const isServicesPage = pathname === '/services';
 
     return (
-        <section id="services" className="py-24 bg-white relative overflow-hidden">
+        <section id="services" className="pt-24 pb-12 bg-white relative overflow-hidden">
             {/* Ambient Background Pattern */}
             <div className="absolute inset-0 opacity-[0.02] pointer-events-none" 
                  style={{ backgroundImage: "url('/lemuria-assets/backgrounds/beige-texture.jpg')", backgroundSize: 'cover' }}></div>
@@ -83,21 +83,19 @@ export function ServicesPreview({ services }: ServicesPreviewProps) {
 
                                 {/* Content Overlay */}
                                 <div className="absolute inset-x-0 bottom-0 p-8 z-10 flex flex-col justify-end h-full">
-                                    <div className="overflow-hidden">
-                                        <motion.div 
-                                            className="transition-all duration-700 group-hover:translate-y-[-10px]"
-                                        >
-                                            <div className="flex items-center gap-4 mb-4">
-                                                <Badge className="bg-brand-gold text-white border-none py-1 px-4 rounded-full text-[10px] uppercase font-bold tracking-widest">
-                                                    60 MINS
-                                                </Badge>
-                                                <span className="text-white/60 text-xs font-bold uppercase tracking-widest">${service.price}</span>
-                                            </div>
-                                            <h3 className="font-serif text-2xl text-white mb-6 leading-tight">
-                                                {(service as Record<string, unknown>).title as string || (service as Record<string, unknown>).name as string}
-                                            </h3>
-                                        </motion.div>
-                                    </div>
+                                    <motion.div 
+                                        className="transition-all duration-700 group-hover:translate-y-[-10px]"
+                                    >
+                                        <div className="flex items-center gap-4 mb-4">
+                                            <Badge className="bg-brand-gold text-white border-none py-1 px-4 rounded-full text-[10px] uppercase font-bold tracking-widest">
+                                                60 MINS
+                                            </Badge>
+                                            <span className="text-white/60 text-xs font-bold uppercase tracking-widest">${service.price}</span>
+                                        </div>
+                                        <h3 className="font-serif text-2xl text-white mb-6 leading-tight">
+                                            {(service as Record<string, unknown>).title as string || (service as Record<string, unknown>).name as string}
+                                        </h3>
+                                    </motion.div>
 
                                     {/* Slide-in Description */}
                                     <div className="max-h-0 opacity-0 group-hover:max-h-[200px] group-hover:opacity-100 transition-all duration-700 ease-in-out">
@@ -106,9 +104,9 @@ export function ServicesPreview({ services }: ServicesPreviewProps) {
                                         </p>
                                         <Link 
                                             href={`/book?service=${service.id}`}
-                                            className="inline-flex items-center gap-4 text-brand-gold font-bold text-xs tracking-widest uppercase group/link"
+                                            className="inline-flex items-center gap-4 text-primary-300 hover:text-white font-bold text-xs tracking-widest uppercase group/link transition-colors"
                                         >
-                                            Book Session 
+                                            <span className="border-b border-primary-300/40 group-hover/link:border-white pb-0.5">Book Session</span>
                                             <ArrowRight className="w-4 h-4 transition-transform group-hover/link:translate-x-2" />
                                         </Link>
                                     </div>
@@ -126,7 +124,7 @@ export function ServicesPreview({ services }: ServicesPreviewProps) {
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 1, delay: 0.6 }}
-                    className="mt-24 text-center"
+                    className="mt-12 text-center"
                 >
                     {isServicesPage ? (
                         <Link href="/book" className="inline-flex items-center gap-6 text-brand-teal font-bold text-sm tracking-[0.3em] uppercase group">

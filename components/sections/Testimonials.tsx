@@ -7,29 +7,29 @@ const testimonials = [
   {
     name: "Sarah M.",
     before: "I was overwhelmed, exhausted and felt completely disconnected from my own body.",
-    after: "After the Crystal Diamond Light session, I felt a profound sense of calm. The clarity I've gained is life-changing.",
+    after: "After the Kinesiology and Sound Therapy session, I felt a profound sense of calm. The clarity I've gained is life-changing.",
     rating: 5,
-    role: "Intuitive Client"
+    role: "Wellness Client"
   },
   {
     name: "James R.",
     before: "Chronic stress had manifested as physical tension that no massage could release.",
-    after: "The Group Sound Healing was like a internal reset button. My nervous system finally felt safe to let go.",
+    after: "The Group Sound Therapy was like an internal reset button. My nervous system finally felt safe to let go.",
     rating: 5,
     role: "Wellness Seeker"
   },
   {
     name: "Elena P.",
-    before: "I was stuck in a creative block and felt unable to move forward in my spiritual practice.",
-    after: "Jenny's Angel Touch session opened portals of inspiration I didn't know existed. I feel vibrant again.",
+    before: "I was stuck in a creative block and felt unable to move forward in my wellness routine.",
+    after: "Jenny's bodywork session supported my wellness and clarity. I feel vibrant and focused again.",
     rating: 5,
-    role: "Artist & Soul Trekker"
+    role: "Creative Professional"
   }
 ];
 
 export function Testimonials() {
     return (
-        <section id="testimonials" className="py-24 bg-white relative overflow-hidden">
+        <section id="testimonials" className="pt-24 pb-12 bg-white relative overflow-hidden">
             {/* Background Atmosphere */}
             <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-gold/5 blur-[150px] rounded-full pointer-events-none"></div>
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-brand-teal/5 blur-[150px] rounded-full pointer-events-none"></div>
@@ -38,13 +38,13 @@ export function Testimonials() {
                 <div className="text-center mb-24">
                     <div className="inline-flex items-center gap-3 mb-8">
                         <div className="w-12 h-[1px] bg-brand-gold/50"></div>
-                        <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">The Resonance Circle</span>
+                        <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Client Stories</span>
                     </div>
                     <h2 className="font-serif text-5xl md:text-6xl font-medium text-brand-text mb-8 tracking-tight">
-                        Soul <span className="text-brand-teal italic font-light">Feedback</span>
+                        Client <span className="text-brand-teal italic font-light">Experiences</span>
                     </h2>
                     <p className="text-brand-text/50 max-w-2xl mx-auto leading-relaxed font-light text-lg italic">
-                        Real stories of transformation from those who have stepped into the frequency of healing.
+                        Real stories of balance and restoration from those who have participated in our sessions.
                     </p>
                 </div>
 

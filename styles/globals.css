@@ -46,60 +46,60 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
-  /* Custom Brand Colors from Lemuria Healing */
+  /* Custom Brand Colors from Heart Strong */
   --color-brand-bg: #FAF9F6;
-  --color-brand-text: #2D2926;
-  --color-brand-teal: #2D5A47;
-  --color-brand-teal-dark: #1A362B;
-  --color-brand-teal-light: #447A64;
-  --color-brand-gold: #D4AF37;
-  --color-brand-beige: #F5E6DA;
+  --color-brand-text: #2D2630;
+  --color-brand-teal: #523668;
+  --color-brand-teal-dark: #362147;
+  --color-brand-teal-light: #775A90;
+  --color-brand-gold: #3E604F;
+  --color-brand-beige: #E8E2EE;
 
-  --color-primary-50: #f4f7f6;
-  --color-primary-100: #e9eff0;
-  --color-primary-200: #c8d7d9;
-  --color-primary-300: #a7bfc2;
-  --color-primary-400: #86a7ab;
-  --color-primary-500: #2D5A47;
-  --color-primary-600: #264d3c;
-  --color-primary-700: #1f3f31;
-  --color-primary-800: #183126;
-  --color-primary-900: #11231b;
+  --color-primary-50: #F7F4F9;
+  --color-primary-100: #ECE7F2;
+  --color-primary-200: #DACFE5;
+  --color-primary-300: #C3B3D5;
+  --color-primary-400: #A692C0;
+  --color-primary-500: #523668;
+  --color-primary-600: #462E5A;
+  --color-primary-700: #39254B;
+  --color-primary-800: #2C1D3A;
+  --color-primary-900: #1F142A;
 
   --spacing-base: 1rem;
   
   --radius-small: 50px;
   --radius-large: 24px;
 
-  --shadow-custom: 0px 8px 40px -4px rgba(107, 78, 255, 0.2);
-  --shadow-custom-hover: 0px 16px 60px -4px rgba(107, 78, 255, 0.35);
-  --shadow-glow: 0 0 40px rgba(107, 78, 255, 0.25);
-  --shadow-glow-gold: 0 0 30px rgba(232, 176, 32, 0.3);
+  --shadow-custom: 0px 8px 40px -4px rgba(82, 54, 104, 0.2);
+  --shadow-custom-hover: 0px 16px 60px -4px rgba(82, 54, 104, 0.35);
+  --shadow-glow: 0 0 40px rgba(82, 54, 104, 0.25);
+  --shadow-glow-gold: 0 0 30px rgba(62, 96, 79, 0.3);
 }
 
 :root {
   --background: #FAF9F6;
-  --foreground: #2D2926;
+  --foreground: #2D2630;
   --card: rgba(255, 255, 255, 0.8);
-  --card-foreground: #2D2926;
+  --card-foreground: #2D2630;
   --popover: #FFFFFF;
-  --popover-foreground: #2D2926;
-  /* Refined Shadcn Theme mapping to Lemuria Teal + Gold */
-  --primary: #2D5A47;         /* Brand Teal */
+  --popover-foreground: #2D2630;
+  /* Refined Shadcn Theme mapping to Heart Strong Purple + Green */
+  --primary: #523668;         /* Brand Purple */
   --primary-foreground: #FFFFFF;
   
-  --secondary: #F5E6DA;      /* Sand Tone */
-  --secondary-foreground: #2D2926;
+  --secondary: #E8E2EE;      /* Soft Lilac */
+  --secondary-foreground: #2D2630;
   
   --muted: #F0F0F0;
   --muted-foreground: #666666;
   
-  --accent: #D4AF37;           /* Brand Gold */
+  --accent: #3E604F;           /* Brand Green */
   --accent-foreground: #FFFFFF;
   --destructive: oklch(0.58 0.22 27);
   --border: #E5E5E5;
   --input: #E5E5E5;
-  --ring: #2D5A47;
+  --ring: #523668;
   --radius: 0.75rem;
 }
 
@@ -157,7 +157,7 @@
 
   .gradient-text-teal {
     @apply text-transparent bg-clip-text;
-    background-image: linear-gradient(135deg, #2D5A47 0%, #447A64 50%, #1A362B 100%);
+    background-image: linear-gradient(135deg, #523668 0%, #775A90 50%, #362147 100%);
   }
 
   .glass {

@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { Home, Calendar, XCircle, Sparkles } from 'lucide-react';
 
 export const metadata = {
-  title: "Vibration Released | Lemuria Healing",
-  description: "Sometimes the flow takes a different path. We are here when you are ready.",
+  title: "Booking Cancelled | Heart Strong",
+  description: "Your booking process was cancelled. We are here whenever you are ready.",
 };
 
 export default function CancelPage() {
@@ -24,15 +24,15 @@ export default function CancelPage() {
         
         <div className="inline-flex items-center gap-3 px-6 py-2 mb-8 rounded-full bg-red-50 border border-red-100/50">
             <Sparkles className="w-4 h-4 text-red-400" />
-            <span className="text-[10px] font-bold text-red-400 tracking-[0.4em] uppercase">Energy Released</span>
+            <span className="text-[10px] font-bold text-red-400 tracking-[0.4em] uppercase">Session Cancelled</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-serif text-brand-text mb-8 tracking-tight leading-[1.1]">
-          Resonance <br /><span className="text-red-400 italic font-light">Redirected</span>
+          Booking <br /><span className="text-red-400 italic font-light">Cancelled</span>
         </h1>
         
         <p className="text-xl text-brand-text/50 font-light leading-relaxed mb-16 italic max-w-xl mx-auto border-l-2 border-red-100/50 pl-8">
-          &ldquo;Sometimes the timing isn&apos;t right, and that is part of the sacred flow. We hold space for you to return whenever your resonance aligns with our circle.&rdquo;
+          &ldquo;We understand plans change. You are welcome to register for a sound therapy or educational session at any time that works for you.&rdquo;
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -41,7 +41,7 @@ export default function CancelPage() {
             className="px-12 py-5 bg-brand-teal text-white rounded-full font-bold text-xs tracking-[0.2em] uppercase shadow-premium hover:shadow-premiumHover transition-all hover:scale-[1.02] flex items-center justify-center gap-3"
           >
             <Home className="w-4 h-4" />
-            Return to Sanctuary
+            Return Home
           </Link>
           <Link 
             href="/services" 
@@ -53,7 +53,7 @@ export default function CancelPage() {
         </div>
 
         <p className="mt-24 text-[10px] font-bold text-brand-text/20 uppercase tracking-[0.4em]">
-          Pure Resonance • Sacred Space • Lemuria Healing
+          Sound Therapy • Educational Wellness • Heart Strong
         </p>
       </div>
     </div>

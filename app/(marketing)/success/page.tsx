@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { CheckCircle2, Sparkles, ArrowRight } from 'lucide-react';
 
 export const metadata = {
-  title: "Vibration Transmitted | Lemuria Healing",
-  description: "Your session or inquiry has been successfully received by our sacred circle.",
+  title: "Message Received | Heart Strong",
+  description: "Your session registration or inquiry has been successfully received.",
 };
 
 export default function SuccessPage() {
@@ -21,15 +21,15 @@ export default function SuccessPage() {
         
         <div className="inline-flex items-center gap-3 px-6 py-2 mb-8 rounded-full bg-brand-teal/5 border border-brand-teal/10">
             <Sparkles className="w-4 h-4 text-brand-teal" />
-            <span className="text-[10px] font-bold text-brand-teal tracking-[0.4em] uppercase">Energy Synchronized</span>
+            <span className="text-[10px] font-bold text-brand-teal tracking-[0.4em] uppercase">Message Sent</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-serif text-brand-text mb-8 tracking-tight">
-          Vibration <br /><span className="text-brand-teal italic font-light">Transmitted</span>
+          Inquiry <br /><span className="text-brand-teal italic font-light">Received</span>
         </h1>
         
         <p className="text-xl text-brand-text/50 font-light leading-relaxed mb-16 italic">
-          &ldquo;Thank you for reaching out to the Lemuria circle. Your intent has been received and the resonance is already beginning to shift.&rdquo;
+          &ldquo;Thank you for reaching out to Heart Strong. We have received your message and will be in touch with you shortly.&rdquo;
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -37,13 +37,13 @@ export default function SuccessPage() {
             href="/" 
             className="px-12 py-5 bg-brand-teal text-white rounded-full font-bold text-xs tracking-[0.2em] uppercase shadow-premium hover:shadow-premiumHover transition-all hover:scale-[1.02] flex items-center justify-center gap-3"
           >
-            Return to Sanctuary
+            Return Home
           </Link>
           <Link 
             href="/services" 
             className="px-12 py-5 bg-white text-brand-text border border-brand-teal/10 rounded-full font-bold text-xs tracking-[0.2em] uppercase hover:bg-brand-teal/5 transition-all flex items-center justify-center gap-3"
           >
-            Explore Modalities <ArrowRight className="w-4 h-4" />
+            Explore Services <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       </div>

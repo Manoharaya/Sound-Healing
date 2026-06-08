@@ -6,18 +6,18 @@ import Image from "next/image";
 const environmentImages = [
   {
     src: "/lemuria-assets/services/sound-bowls.jpg",
-    title: "Sacred Resonance",
-    description: "Aligning your energy field through pure frequency."
+    title: "Sound Therapy",
+    description: "Relaxing the nervous system through focused acoustic therapy."
   },
   {
     src: "/lemuria-assets/services/healing-session.jpg",
-    title: "The Sanctuary",
-    description: "A safe container for your deep inner journey."
+    title: "The Studio",
+    description: "A quiet space designed to support physical and mental recovery."
   },
   {
     src: "/lemuria-assets/services/singing-bowls.jpg",
-    title: "Vibrational Tools",
-    description: "Hand-crafted crystals and celestial bowls."
+    title: "Therapeutic Instruments",
+    description: "Specialized crystal bowls and gongs."
   }
 ];
 
@@ -31,12 +31,12 @@ export function HealingEnvironment() {
           viewport={{ once: true }}
           className="text-center mb-24"
         >
-          <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase mb-4 block">The Healing Environment</span>
+          <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase mb-4 block">The Studio Environment</span>
           <h2 className="font-serif text-5xl md:text-6xl text-brand-text mb-8 tracking-tight">
-            Our Sacred <span className="text-brand-teal italic font-light">Sanctuary</span>
+            Our Peaceful <span className="text-brand-teal italic font-light">Studio</span>
           </h2>
           <p className="text-brand-text/50 max-w-2xl mx-auto leading-relaxed font-light text-lg italic">
-            Step into a space where time slows down and the vibrations of peace take root.
+            Step into a quiet space designed to support relaxation and well-being.
           </p>
         </motion.div>
 

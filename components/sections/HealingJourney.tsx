@@ -6,26 +6,26 @@ import { Sparkles, Calendar, Zap, RefreshCw } from "lucide-react";
 const steps = [
   {
     id: "01",
-    title: "Choose Your Modality",
-    description: "Explore our sacred offerings and select the frequency that resonates with your current needs.",
+    title: "Choose Your Service",
+    description: "Explore our offerings and select the session or program that aligns with your current goals.",
     icon: Sparkles,
   },
   {
     id: "02",
     title: "Book Your Session",
-    description: "Schedule your vibrational alignment through our seamless online sanctuary portal.",
+    description: "Schedule your session through our seamless online booking system.",
     icon: Calendar,
   },
   {
     id: "03",
-    title: "Experience Alignment",
-    description: "Enter the healing field and let the alchemy of sound and energy restore your harmony.",
+    title: "Experience Sessions",
+    description: "Attend the session and let sound therapy and kinesiology support your physical recovery.",
     icon: Zap,
   },
   {
     id: "04",
-    title: "Integrate & Transform",
-    description: "Emerge renewed. Allow the shifts to settle as you step into your natural state of being.",
+    title: "Integrate & Restore",
+    description: "Leave refreshed. Maintain your wellness routine and build ongoing resilience.",
     icon: RefreshCw,
   },
 ];
@@ -44,10 +44,10 @@ export function HealingJourney() {
           className="text-center mb-24"
         >
           <div className="inline-flex items-center gap-2 mb-6">
-            <span className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">The Path to Resonance</span>
+            <span className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">The Process</span>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl text-brand-text mb-8 tracking-tight">
-            Your Healing <span className="text-brand-teal italic font-light">Journey</span>
+            Your Wellness <span className="text-brand-teal italic font-light">Journey</span>
           </h2>
           <div className="w-20 h-1 bg-brand-gold/30 mx-auto rounded-full"></div>
         </motion.div>

@@ -38,24 +38,24 @@ export async function sendMessage(formData: FormData) {
 
     if (error) {
       console.error('Contact message error:', error);
-      return { success: false, error: 'Your message could not be delivered to the sanctuary.' };
+      return { success: false, error: 'Your message could not be delivered.' };
     }
 
     // Send confirmation email to user
     await sendEmail(
       validatedData.email,
-      'Your Message to Lemuria Healing',
-      `<p>Dear ${validatedData.name},</p><p>Thank you for reaching out. We have received your message regarding "${validatedData.subject || 'General Inquiry'}" and will respond shortly.</p><br/><p>With light,<br/>Lemuria Healing Sanctuary</p>`
+      'Your Message to Heart Strong',
+      `<p>Dear ${validatedData.name},</p><p>Thank you for reaching out. We have received your message regarding "${validatedData.subject || 'General Inquiry'}" and will respond shortly.</p><br/><p>Warmly,<br/>Heart Strong Wellness</p>`
     );
 
     // Send notification email to admin
     await sendEmail(
-      'resonance@lemuriahealing.com.au',
+      'info@heartstrong.com.au',
       'New Contact Inquiry Received',
       `<p><strong>Name:</strong> ${validatedData.name}</p><p><strong>Email:</strong> ${validatedData.email}</p><p><strong>Phone:</strong> ${validatedData.phone || 'N/A'}</p><p><strong>Subject:</strong> ${validatedData.subject}</p><p><strong>Message:</strong><br/>${validatedData.message}</p>`
     );
 
-    return { success: true, message: 'Your resonance has been received. We will respond when the stars align.' };
+    return { success: true, message: 'Your message has been received. We will respond shortly.' };
   } catch (error) {
 
     if (error instanceof Error && error.name === 'ZodError') {
@@ -63,7 +63,7 @@ export async function sendMessage(formData: FormData) {
       return { success: false, error: zodErr.issues[0]?.message || 'Validation failed' };
     }
     console.error('Unexpected contact error:', error);
-    return { success: false, error: 'An unexpected disturbance occurred.' };
+    return { success: false, error: 'An unexpected error occurred.' };
   }
 }
 

@@ -13,41 +13,41 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.lemuriahealing.com.au"),
+  metadataBase: new URL("https://www.heartstrong.com.au"),
   title: {
-    default: "Jenny Gillson | Sound Therapist | Kinesiologist | Lemuria Healing",
-    template: "%s | Lemuria Healing",
+    default: "Jenny Gillson | Kinesiologist & Sound Therapist | Heart Strong",
+    template: "%s | Heart Strong",
   },
-  description: "Live the life you want. Transformative healing through sound therapy, kinesiology, and intuitive energy work at Lemuria Healing.",
-  keywords: ["Jenny Gillson", "sound healing", "kinesiology", "Aromatherapy", "spiritual wellness", "lemuria", "Victoria healing"],
+  description: "Live the life you want. Empowering physical wellness and emotional resilience through kinesiology and sound therapy education at Heart Strong.",
+  keywords: ["Jenny Gillson", "Heart Strong", "sound therapy", "kinesiology", "Aromatherapy", "emotional wellness", "health education", "Victoria wellness"],
   authors: [{ name: "Jenny Gillson" }],
   creator: "Jenny Gillson",
   openGraph: {
     type: "website",
     locale: "en_AU",
-    url: "https://www.lemuriahealing.com.au",
-    title: "Jenny Gillson | master Vibrational Therapist",
-    description: "Live the life you want. Experience deep recalibration through sacred frequency work.",
-    siteName: "Lemuria Healing",
+    url: "https://www.heartstrong.com.au",
+    title: "Jenny Gillson | Kinesiologist & Sound Therapist",
+    description: "Live the life you want. Experience wellness education and emotional resilience coaching.",
+    siteName: "Heart Strong",
     images: [
       {
         url: "/lemuria-assets/hero/jenny-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Jenny Gillson - Lemuria Healing",
+        alt: "Jenny Gillson - Heart Strong",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lemuria Healing | Jenny Gillson",
-    description: "Transformative healing through sound therapy and kinesiology.",
+    title: "Heart Strong | Jenny Gillson",
+    description: "Empowering physical wellness and emotional resilience through kinesiology and sound therapy.",
     images: ["/lemuria-assets/hero/jenny-hero.jpg"],
   },
   robots: {
     index: true,
     follow: true,
-  },
+    },
 };
 
 import { JsonLd } from "@/components/seo/JsonLd";

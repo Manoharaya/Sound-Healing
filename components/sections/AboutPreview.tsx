@@ -7,7 +7,7 @@ import { Sparkles, ArrowRight } from "lucide-react";
 
 export function AboutPreview() {
     return (
-        <section id="philosophy" className="py-24 relative overflow-hidden bg-white">
+        <section id="philosophy" className="pt-24 pb-12 relative overflow-hidden bg-white">
             {/* Texture Background */}
             <div className="absolute top-0 right-0 w-1/2 h-full opacity-[0.05] pointer-events-none" 
                  style={{ backgroundImage: "url('/lemuria-assets/backgrounds/teal-texture.jpg')", backgroundSize: 'cover' }}></div>
@@ -25,7 +25,7 @@ export function AboutPreview() {
                         <div className="aspect-[4/5] relative rounded-[40px] overflow-hidden shadow-premium z-10 max-w-[400px] mx-auto">
                             <Image
                                 src="/lemuria-assets/services/singing-bowls.jpg"
-                                alt="Celestial Singing Bowls in Lemuria Sanctuary"
+                                alt="Singing Bowls in Heart Strong Studio"
                                 fill
                                 priority
                                 sizes="(max-width: 1024px) 100vw, 400px"
@@ -48,32 +48,32 @@ export function AboutPreview() {
                     >
                         <div className="inline-flex items-center gap-3 mb-8">
                             <div className="w-12 h-[1px] bg-brand-gold/50"></div>
-                            <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Sacred Ethos</span>
+                            <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Our Philosophy</span>
                         </div>
                         
                         <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-medium text-brand-text mb-8 leading-[1.1]">
-                            Harmonizing at <br />
-                            <span className="text-brand-teal italic font-light">Your Divine Source</span>
+                            Restoring Balance <br />
+                            <span className="text-brand-teal italic font-light">to Your Body and Mind</span>
                         </h2>
                         
                         <div className="space-y-6 text-lg text-brand-text/70 font-light leading-relaxed">
                             <p>
-                                At Lemuria Healing, we understand that wellness is not the absence of sickness, but the presence of <span className="text-brand-text font-medium italic">coherent resonance</span>. Every cell in your body is a vibrating vessel of light.
+                                At Heart Strong, we understand that wellness is not the absence of sickness, but the presence of <span className="text-brand-text font-medium italic">vitality and balance</span>. Every aspect of your system is interconnected.
                             </p>
                             <p>
-                                When life’s stresses discordant your natural rhythm, we use the ancient alchemy of sound harmonics and modern kinesiology to recalibrate your field. We don’t just heal; we return you to your original state of grace.
+                                When life&apos;s stresses affect your natural well-being, we use sound therapy and kinesiology to restore balance. We support your body&apos;s natural ability to return to a rested, grounded state.
                             </p>
                         </div>
                         
                         <div className="mt-12 flex items-center gap-10">
                             <div>
-                                <p className="font-serif text-4xl font-bold text-brand-teal leading-none">Vibes</p>
-                                <p className="text-[10px] uppercase font-bold tracking-widest text-brand-gold mt-2">Frequency First</p>
+                                <p className="font-serif text-4xl font-bold text-brand-teal leading-none">Rest</p>
+                                <p className="text-[10px] uppercase font-bold tracking-widest text-brand-gold mt-2">Nervous System</p>
                             </div>
                             <div className="h-12 w-[1px] bg-neutral-200"></div>
                             <div>
-                                <p className="font-serif text-4xl font-bold text-brand-teal leading-none">Pure</p>
-                                <p className="text-[10px] uppercase font-bold tracking-widest text-brand-gold mt-2">Lineage Work</p>
+                                <p className="font-serif text-4xl font-bold text-brand-teal leading-none">Growth</p>
+                                <p className="text-[10px] uppercase font-bold tracking-widest text-brand-gold mt-2">Evidence Based</p>
                             </div>
                         </div>
                     </motion.div>

@@ -124,7 +124,7 @@ export function WorkshopCountdown({ workshop }: WorkshopCountdownProps) {
             className="flex justify-center"
           >
             <div className="glass-card bg-brand-teal/60 border-white/10 p-10 rounded-[40px] w-full max-w-[460px] text-center backdrop-blur-3xl shadow-2xl">
-              <p className="text-[10px] font-bold text-white uppercase tracking-[0.4em] mb-10">Portal Opens In</p>
+              <p className="text-[10px] font-bold text-white uppercase tracking-[0.4em] mb-10">Registration Closes In</p>
               
               <div className="grid grid-cols-2 gap-8">
                 {[
@@ -147,7 +147,7 @@ export function WorkshopCountdown({ workshop }: WorkshopCountdownProps) {
               <div className="mt-12 w-full h-[1px] bg-white/20 relative">
                   <div className="absolute top-1/2 left-0 w-1/3 h-[2px] bg-brand-gold -translate-y-1/2"></div>
               </div>
-              <p className="mt-6 text-xs text-white italic font-light">"The frequency of change is upon us."</p>
+              <p className="mt-6 text-xs text-white italic font-light">"Reserve your spot today to begin your wellness journey."</p>
             </div>
           </motion.div>
         </div>

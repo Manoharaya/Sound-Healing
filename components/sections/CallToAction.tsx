@@ -19,24 +19,24 @@ export function CallToAction() {
                     transition={{ duration: 0.8 }}
                 >
                     <div className="inline-flex items-center gap-3 mb-8">
-                        <div className="w-12 h-[1px] bg-brand-gold/80"></div>
-                        <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Begin Your Journey</span>
-                        <div className="w-12 h-[1px] bg-brand-gold/80"></div>
+                        <div className="w-12 h-[1px] bg-brand-beige/50"></div>
+                        <span className="text-[10px] font-bold text-brand-beige tracking-[0.4em] uppercase">Begin Your Journey</span>
+                        <div className="w-12 h-[1px] bg-brand-beige/50"></div>
                     </div>
                 
                     <h2 className="font-serif text-5xl md:text-7xl text-white mb-8 tracking-tight leading-[1.1]">
                         Ready to Return to <br />
-                        <span className="text-brand-gold italic font-light">Your Natural Frequency?</span>
+                        <span className="text-brand-beige italic font-light">Wellness & Balance?</span>
                     </h2>
                     
                     <p className="text-white/70 max-w-2xl mx-auto text-xl font-light leading-relaxed mb-12 italic">
-                        Experience profound clarity, emotional release, and physical restoration. Step into the sanctuary and let the healing begin.
+                        Experience profound clarity, stress reduction, and physical restoration. Step into our studio and let your wellness journey begin.
                     </p>
                     
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                         <Link 
                             href="/book" 
-                            className="group px-12 py-5 bg-brand-gold text-white rounded-full font-bold text-xs tracking-[0.2em] uppercase shadow-[0_0_40px_rgba(235,190,128,0.3)] hover:shadow-[0_0_60px_rgba(235,190,128,0.5)] transition-all hover:-translate-y-1 flex items-center justify-center gap-4"
+                            className="group px-12 py-5 bg-brand-beige text-brand-teal rounded-full font-bold text-xs tracking-[0.2em] uppercase shadow-[0_0_40px_rgba(232,226,238,0.2)] hover:bg-white transition-all hover:-translate-y-1 flex items-center justify-center gap-4"
                         >
                             Reserve Your Session
                             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />

@@ -9,6 +9,46 @@ export function Hero() {
     const [mounted, setMounted] = useState(false);
     useEffect(() => setMounted(true), []);
 
+    const containerVariants = {
+        hidden: {},
+        visible: {
+            transition: {
+                staggerChildren: 0.12,
+                delayChildren: 0.2
+            }
+        }
+    };
+
+    const h2Variants = {
+        hidden: { opacity: 0, y: 15 },
+        visible: { 
+            opacity: 1, 
+            y: 0,
+            transition: { duration: 0.8, ease: [0.2, 0.65, 0.3, 0.9] }
+        }
+    };
+
+    const wordContainerVariants = {
+        hidden: {},
+        visible: {
+            transition: {
+                staggerChildren: 0.08
+            }
+        }
+    };
+
+    const wordVariants = {
+        hidden: { opacity: 0, y: "100%" },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 0.8,
+                ease: [0.2, 0.65, 0.3, 0.9]
+            }
+        }
+    };
+
     return (
         <section id="hero" className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-[#FAF9F6] pt-24">
             {/* Immersive Background: Moving Gradient */}
@@ -41,14 +81,35 @@ export function Hero() {
 
                         
                         <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8, delay: 0.2 }}
+                            initial="hidden"
+                            animate="visible"
+                            variants={containerVariants}
                         >
-                            <h2 className="text-brand-teal font-serif text-xl md:text-2xl italic font-light mb-4">Sound Therapy | Kinesiology | Intuitive Healing</h2>
+                            <motion.h2 
+                                variants={h2Variants}
+                                className="text-brand-teal font-serif text-xl md:text-2xl italic font-light mb-4"
+                            >
+                                Sound Therapy | Kinesiology | Intuitive Healing
+                            </motion.h2>
                             <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-medium text-brand-text mb-8 leading-[1.05] tracking-tight">
-                                Live the Life <br />
-                                <span className="text-brand-teal italic font-light">You Want</span>
+                                <motion.span variants={wordContainerVariants} className="block">
+                                    {"Live the Life".split(" ").map((word, i) => (
+                                        <span key={i} className="inline-block overflow-hidden mr-3 pb-2 -mb-2">
+                                            <motion.span variants={wordVariants} className="inline-block">
+                                                {word}
+                                            </motion.span>
+                                        </span>
+                                    ))}
+                                </motion.span>
+                                <motion.span variants={wordContainerVariants} className="block text-brand-teal italic font-light">
+                                    {"You Want".split(" ").map((word, i) => (
+                                        <span key={i} className="inline-block overflow-hidden mr-3 pb-2 -mb-2">
+                                            <motion.span variants={wordVariants} className="inline-block">
+                                                {word}
+                                            </motion.span>
+                                        </span>
+                                    ))}
+                                </motion.span>
                             </h1>
                         </motion.div>
                         

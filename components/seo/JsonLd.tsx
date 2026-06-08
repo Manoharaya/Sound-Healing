@@ -2,11 +2,11 @@ export function JsonLd() {
   const businessData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Lemuria Healing",
-    "image": "https://www.lemuriahealing.com.au/lemuria-assets/logo/logo.png",
-    "@id": "https://www.lemuriahealing.com.au",
-    "url": "https://www.lemuriahealing.com.au",
-    "telephone": "+61 411 111 111", // Placeholder
+    "name": "Heart Strong",
+    "image": "https://www.heartstrong.com.au/assets/logo.png",
+    "@id": "https://www.heartstrong.com.au",
+    "url": "https://www.heartstrong.com.au",
+    "telephone": "0435 720 595",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Mornington Peninsula",
@@ -33,8 +33,8 @@ export function JsonLd() {
       "closes": "17:00"
     },
     "sameAs": [
-      "https://www.facebook.com/lemuriahealing",
-      "https://www.instagram.com/lemuriahealing"
+      "https://www.facebook.com/heartstrong",
+      "https://www.instagram.com/heartstrong"
     ]
   };
 

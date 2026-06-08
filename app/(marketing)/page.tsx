@@ -10,6 +10,9 @@ import { getWorkshops } from '@/actions/workshops/getWorkshops';
 const ServicesPreview = dynamic(() => import('@/components/sections/ServicesPreview').then(mod => mod.ServicesPreview), {
   loading: () => <div className="h-96 animate-pulse bg-brand-bg/50 rounded-[40px] m-8" />
 });
+const WeekendSessions = dynamic(() => import('@/components/sections/WeekendSessions').then(mod => mod.WeekendSessions), {
+  loading: () => <div className="h-96 animate-pulse bg-brand-bg/50 rounded-[40px] m-8" />
+});
 const HealingJourney = dynamic(() => import('@/components/sections/HealingJourney').then(mod => mod.HealingJourney));
 const AboutJenny = dynamic(() => import('@/components/sections/AboutJenny').then(mod => mod.AboutJenny));
 const HealingEnvironment = dynamic(() => import('@/components/sections/HealingEnvironment').then(mod => mod.HealingEnvironment));
@@ -35,6 +38,9 @@ export default async function Home() {
       
       {/* 3. Healing Modalities (Services) */}
       <ServicesPreview services={services} />
+
+      {/* Weekend Sessions */}
+      <WeekendSessions />
       
       {/* 4. Guided Healing Journey */}
       <HealingJourney />

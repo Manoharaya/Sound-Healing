@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Sound Healing Sanctuary | Lemuria",
-  description: "Experience profound emotional recalibration through the sacred frequency of Crystal Bowls and Gongs.",
+  title: "Sound Therapy | Heart Strong",
+  description: "Experience profound emotional restoration through acoustic sound therapy, crystal bowls, and gongs.",
 };
 
 export default function SoundHealingLayout({

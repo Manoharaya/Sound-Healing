@@ -40,6 +40,30 @@ export const MOCK_SERVICES: Service[] = [
     description: "Gentle hands-on vibrational healing designed to channel high-frequency angelic light for emotional release and spiritual comfort.",
     price: 170,
     duration_minutes: 60
+  },
+  {
+    id: "fa111111-1111-1111-1111-111111111111",
+    name: "The Friday Unwind",
+    title: "The Friday Unwind",
+    description: "Your weekly circuit breaker. Designed for busy minds, tense bodies, and nervous systems that haven't fully switched off all week.",
+    price: 45,
+    duration_minutes: 60
+  },
+  {
+    id: "da222222-2222-2222-2222-222222222222",
+    name: "The Saturday Reset",
+    title: "The Saturday Reset",
+    description: "Step out of doing mode and into being mode, so the rest of your weekend actually feels like a weekend.",
+    price: 50,
+    duration_minutes: 75
+  },
+  {
+    id: "ea333333-3333-3333-3333-333333333333",
+    name: "The Sunday Restoration",
+    title: "The Sunday Restoration",
+    description: "Deep sound frequencies, breathwork, and guided stillness to clear the week's residue and rebuild your inner resources.",
+    price: 60,
+    duration_minutes: 90
   }
 ];
 

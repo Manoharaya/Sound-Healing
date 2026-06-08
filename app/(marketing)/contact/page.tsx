@@ -7,8 +7,8 @@ import { ContactForm } from '@/components/forms/ContactForm';
 
 
 export const metadata = {
-  title: "Connect | Lemuria Healing",
-  description: "Reach out to schedule private immersive events, corporate wellness programs, or general inquiries.",
+  title: "Connect | Heart Strong",
+  description: "Reach out to schedule private sessions, corporate wellness programs, or general inquiries.",
 };
 
 export default function ContactPage() {
@@ -25,13 +25,13 @@ export default function ContactPage() {
                 <div className="max-w-3xl mb-24">
                     <div className="inline-flex items-center gap-4 mb-8">
                         <div className="w-12 h-[1px] bg-brand-gold/70"></div>
-                        <span className="text-[11px] font-bold text-brand-gold tracking-[0.5em] uppercase font-sans">Human Connection</span>
+                        <span className="text-[11px] font-bold text-brand-gold tracking-[0.5em] uppercase font-sans">Get in Touch</span>
                     </div>
                     <h2 className="font-serif text-6xl md:text-8xl text-brand-text mb-10 leading-[1.05] tracking-tight">
-                        Begin Your <br /><span className="text-brand-teal italic font-light">Resonance</span>
+                        Begin Your <br /><span className="text-brand-teal italic font-light">Consultation</span>
                     </h2>
                     <p className="text-brand-text/50 max-w-2xl text-xl font-light leading-relaxed italic border-l-2 border-brand-teal/10 pl-8">
-                        &ldquo;Reach out to schedule private immersive events, corporate wellness programs, or to ask questions about our sacred vibrational modalities.&rdquo;
+                        &ldquo;Reach out to schedule private sessions, corporate wellness programs, or to ask questions about our sound therapy and educational workshops.&rdquo;
                     </p>
                 </div>
 
@@ -44,9 +44,9 @@ export default function ContactPage() {
                                     <div className="w-10 h-10 rounded-full bg-brand-teal/5 flex items-center justify-center border border-brand-teal/10 group-hover:bg-brand-gold/10 group-hover:border-brand-gold/30 transition-all duration-700">
                                         <Mail className="w-4 h-4 text-brand-gold" />
                                     </div>
-                                    <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">Direct Resonance</p>
+                                    <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">Email Address</p>
                                 </div>
-                                <p className="text-2xl font-serif text-brand-text group-hover:text-brand-teal transition-colors duration-500">resonance@lemuriahealing.com.au</p>
+                                <p className="text-2xl font-serif text-brand-text group-hover:text-brand-teal transition-colors duration-500">hello@heartstrong.com.au</p>
                             </div>
                             
                             <div className="group">
@@ -54,7 +54,7 @@ export default function ContactPage() {
                                     <div className="w-10 h-10 rounded-full bg-brand-teal/5 flex items-center justify-center border border-brand-teal/10 group-hover:bg-brand-gold/10 group-hover:border-brand-gold/30 transition-all duration-700">
                                         <Phone className="w-4 h-4 text-brand-gold" />
                                     </div>
-                                    <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">Verbal Frequency</p>
+                                    <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">Phone Number</p>
                                 </div>
                                 <p className="text-2xl font-serif text-brand-text group-hover:text-brand-teal transition-colors duration-500">0435 720 595</p>
                             </div>
@@ -64,7 +64,7 @@ export default function ContactPage() {
                                     <div className="w-10 h-10 rounded-full bg-brand-teal/5 flex items-center justify-center border border-brand-teal/10 group-hover:bg-brand-gold/10 group-hover:border-brand-gold/30 transition-all duration-700">
                                         <MapPin className="w-4 h-4 text-brand-gold" />
                                     </div>
-                                    <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">Sacred Sanctuary</p>
+                                    <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">Our Location</p>
                                 </div>
                                 <p className="text-2xl font-serif text-brand-text group-hover:text-brand-teal transition-colors duration-500 leading-relaxed italic truncate">Mount Martha, Victoria</p>
                                 <p className="text-sm text-brand-text/30 font-light mt-1">Mornington Peninsula, Australia</p>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                         </div>
                         
                         <div className="pt-12 border-t border-brand-teal/5">
-                            <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em] mb-8">Digital Vibrations</p>
+                            <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em] mb-8">Follow Us</p>
                             <div className="flex items-center gap-10">
                                 <Link href="#" className="text-xs font-bold uppercase tracking-[0.2em] text-brand-text/40 hover:text-brand-teal transition-all">Instagram</Link>
                                 <Link href="#" className="text-xs font-bold uppercase tracking-[0.2em] text-brand-text/40 hover:text-brand-teal transition-all">Facebook</Link>
@@ -86,7 +86,7 @@ export default function ContactPage() {
                         
                         <div className="mb-16 relative z-10">
                             <h3 className="font-serif text-4xl text-brand-text mb-4">Send an <span className="text-brand-teal italic font-light">Inquiry</span></h3>
-                            <p className="text-brand-text/30 font-light text-sm max-w-md italic leading-relaxed">Leave a message for Jenny and our circle will respond once the vibrations align with your intent.</p>
+                            <p className="text-brand-text/30 font-light text-sm max-w-md italic leading-relaxed">Leave a message for Jenny and we will respond to your inquiry as soon as possible.</p>
                         </div>
                         
                         <div className="relative z-10">
@@ -94,7 +94,7 @@ export default function ContactPage() {
                         </div>
 
                         <div className="mt-16 pt-10 border-t border-brand-teal/5 text-center relative z-10">
-                           <p className="text-[10px] text-brand-text/20 font-bold uppercase tracking-[0.4em]">Response time: typically within 24 lunar hours</p>
+                           <p className="text-[10px] text-brand-text/20 font-bold uppercase tracking-[0.4em]">Response time: typically within 24-48 business hours</p>
                         </div>
                     </div>
 

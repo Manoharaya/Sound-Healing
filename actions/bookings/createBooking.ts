@@ -32,7 +32,7 @@ export async function createBooking(formData: FormData) {
 
     const validatedData = bookingSchema.parse(rawData);
 
-    let itemTitle = 'Sacred Session';
+    let itemTitle = 'Wellness Session';
     let itemPrice = 0;
     let itemType = 'Service';
 
@@ -56,7 +56,7 @@ export async function createBooking(formData: FormData) {
         if (serviceError || !service) {
           const mockService = MOCK_SERVICES.find(s => s.id === validatedData.service_id);
           if (mockService) {
-            itemTitle = mockService.title || mockService.name || 'Sacred Session';
+            itemTitle = mockService.title || mockService.name || 'Wellness Session';
             itemPrice = mockService.price;
             itemType = 'Service';
           } else {
@@ -128,8 +128,8 @@ export async function createBooking(formData: FormData) {
     try {
       await sendEmail(
         validatedData.email,
-        'Booking Received - Lemuria Healing',
-        `<p>Dear ${validatedData.full_name},</p><p>Thank you for initiating a booking for the ${itemType}: <strong>${itemTitle}</strong>.</p><p><strong>Date:</strong> ${new Date(validatedData.session_date).toLocaleString()}</p><p>Please note: Your session will be fully confirmed upon successful energy exchange (payment).</p><br/><p>With light,<br/>Lemuria Healing Sanctuary</p>`
+        'Booking Received - Heart Strong',
+        `<p>Dear ${validatedData.full_name},</p><p>Thank you for registering for the ${itemType}: <strong>${itemTitle}</strong>.</p><p><strong>Date:</strong> ${new Date(validatedData.session_date).toLocaleString()}</p><p>Please note: Your session will be fully confirmed upon successful payment.</p><br/><p>Warmly,<br/>Heart Strong Wellness</p>`
       );
     } catch (err) {
       console.warn('Email sending failed (skipped in dev mode):', err);
@@ -152,7 +152,7 @@ export async function createBooking(formData: FormData) {
               currency: 'aud',
               product_data: {
                 name: `${itemType}: ${itemTitle}`,
-                description: `Booking for ${validatedData.full_name} — Lemuria Healing Sanctuary`,
+                description: `Booking for ${validatedData.full_name} — Heart Strong Wellness`,
               },
               unit_amount: unitAmount,
             },

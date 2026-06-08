@@ -25,12 +25,11 @@ export default function GlobalError({
 
         <div className="bg-white/80 backdrop-blur-md rounded-[48px] p-10 lg:p-16 border border-brand-teal/5 shadow-premium max-w-2xl w-full text-center relative z-10 transform transition-all">
             <h1 className="text-4xl lg:text-5xl font-serif text-brand-text/90 tracking-tight leading-tight mb-6">
-                A shift in the <span className="text-brand-teal italic font-light">frequency</span>
+                An unexpected <span className="text-brand-teal italic font-light">error occurred</span>
             </h1>
             
             <p className="text-brand-text/60 leading-relaxed font-light mb-10 text-lg">
-                We apologize, but an unexpected disruption occurred in our digital sanctuary. 
-                Our guides have been notified.
+                We apologize, but something went wrong. Please try resetting the view or return home.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -38,7 +37,7 @@ export default function GlobalError({
                     onClick={() => reset()}
                     className="px-8 py-4 bg-brand-teal text-white rounded-full text-xs font-bold tracking-[0.2em] uppercase shadow-premium hover:shadow-premiumHover hover:scale-[1.02] transition-all inline-flex items-center justify-center min-w-[200px]"
                 >
-                    Try to Rebalance
+                    Reload Page
                 </button>
                 <Link
                     href="/"
