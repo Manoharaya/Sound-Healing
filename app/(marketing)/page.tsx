@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import dynamic from 'next/dynamic';
 import { Hero } from '@/components/sections/Hero';
 import { AboutPreview } from '@/components/sections/AboutPreview';
@@ -22,7 +22,7 @@ const FAQ = dynamic(() => import('@/components/sections/FAQ').then(mod => mod.FA
 const CallToAction = dynamic(() => import('@/components/sections/CallToAction').then(mod => mod.CallToAction));
 
 export default async function Home() {
-  const [services, testimonials, workshops] = await Promise.all([
+  const [services, , workshops] = await Promise.all([
     getServices(),
     getTestimonials(),
     getWorkshops()

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { Calendar, MapPin, ArrowRight, Sparkles, AlertCircle } from "lucide-react";
+import { Calendar, MapPin, ArrowRight, Sparkles } from "lucide-react";
 import type { Workshop } from "@/types";
 
 interface WorkshopsPreviewProps {

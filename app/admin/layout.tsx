@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { LayoutDashboard, Calendar, Sparkles, GraduationCap, Settings, MessageSquare, Users } from 'lucide-react';
 
 const navItems = [

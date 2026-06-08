@@ -4,7 +4,7 @@ import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Sparkles, Calendar, Clock, MapPin, Users, ArrowRight, ArrowLeft, 
-  ShieldCheck, Loader2, CheckCircle2, ChevronLeft, ChevronRight, HelpCircle, Download
+  ShieldCheck, Loader2, CheckCircle2, ChevronLeft, ChevronRight, Download
 } from 'lucide-react';
 import { format, addMonths, subMonths, startOfMonth, endOfMonth, startOfWeek, endOfWeek, isSameMonth, isSameDay, addDays, isBefore, startOfToday } from "date-fns";
 import { Service, Workshop } from '@/types';

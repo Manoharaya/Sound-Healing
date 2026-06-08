@@ -1,6 +1,4 @@
 import React from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import Link from 'next/link';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { ContactForm } from '@/components/forms/ContactForm';

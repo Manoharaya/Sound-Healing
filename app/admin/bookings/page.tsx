@@ -2,7 +2,6 @@ import { getBookings } from '@/actions/bookings/getBookings';
 import { updateBookingStatus } from '@/actions/bookings/updateBookingStatus';
 import { format } from 'date-fns';
 import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
 import {
   Table,
   TableBody,

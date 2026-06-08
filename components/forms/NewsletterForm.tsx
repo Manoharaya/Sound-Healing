@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Loader2, Sparkles } from "lucide-react";
+import { ArrowRight, Loader2 } from "lucide-react";
 import { subscribeToNewsletter } from "@/actions/newsletter/subscribe";
 
 export function NewsletterForm({ variant = "default" }: { variant?: "default" | "footer" }) {

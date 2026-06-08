@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Facebook, Instagram } from 'lucide-react';
 import { NewsletterForm } from '@/components/forms/NewsletterForm';
 
