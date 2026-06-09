@@ -59,6 +59,7 @@ export function WorkshopsPreview({ workshops }: WorkshopsPreviewProps) {
                                             fill
                                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                             className="object-cover transition-transform duration-[10s] group-hover:scale-110"
+                                            quality={95}
                                         />
                                         <div className="absolute inset-0 bg-gradient-to-t from-brand-text/60 via-transparent to-black/20 mix-blend-multiply"></div>
 

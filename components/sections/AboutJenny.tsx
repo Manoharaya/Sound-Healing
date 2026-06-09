@@ -77,7 +77,9 @@ export function AboutJenny() {
                                 src="/lemuria-assets/hero/jenny-hero.png" 
                                 alt="Jenny Gillson portrait" 
                                 fill
+                                sizes="(max-width: 768px) 100vw, 360px"
                                 className="object-cover"
+                                quality={95}
                             />
                         </div>
                         {/* Decorative Rings */}

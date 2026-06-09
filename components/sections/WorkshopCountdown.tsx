@@ -57,6 +57,7 @@ export function WorkshopCountdown({ workshop }: WorkshopCountdownProps) {
           fill
           sizes="100vw"
           className="object-cover opacity-20 grayscale"
+          quality={95}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-teal via-brand-teal/80 to-transparent"></div>
       </div>

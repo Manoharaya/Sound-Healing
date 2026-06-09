@@ -27,6 +27,7 @@ export function AboutPreview() {
                                 fill
                                 priority
                                 sizes="(max-width: 1024px) 100vw, 400px"
+                                quality={95}
                                 className="object-cover transition-transform duration-[15s] hover:rotate-1 hover:scale-110"
                             />
                             <div className="absolute inset-0 bg-brand-teal/5 mix-blend-multiply"></div>

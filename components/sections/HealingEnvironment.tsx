@@ -55,7 +55,8 @@ export function HealingEnvironment() {
                 alt={image.title}
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
-                className="object-cover grayscale-[0.2] transition-all duration-1000 group-hover:scale-110 group-hover:grayscale-0"
+                className="object-cover transition-all duration-1000 group-hover:scale-110"
+                quality={95}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-text/80 via-transparent to-transparent opacity-100 transition-opacity duration-700"></div>
               

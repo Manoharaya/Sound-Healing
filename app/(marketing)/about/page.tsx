@@ -53,7 +53,7 @@ export default function AboutPage() {
           
           <div className="mt-16 pt-12 border-t border-brand-teal/5 flex items-center gap-6 relative z-10">
             <div className="w-20 h-20 rounded-full overflow-hidden border border-brand-gold shadow-premium relative group-hover:scale-110 transition-transform duration-700">
-              <Image src="/lemuria-assets/hero/jenny-hero.jpg" alt="Jenny Gillson" fill sizes="80px" className="object-cover" />
+              <Image src="/lemuria-assets/hero/jenny-hero.jpg" alt="Jenny Gillson" fill sizes="80px" className="object-cover" quality={95} />
             </div>
             <div>
               <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em] mb-2">Founder & Lead Kinesiologist</p>

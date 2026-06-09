@@ -157,7 +157,8 @@ export function Hero() {
                                 fill
                                 priority
                                 sizes="(max-width: 768px) 100vw, 380px"
-                                className="object-cover grayscale-[0.05] animate-slow-zoom transition-all duration-[3s] group-hover:grayscale-0 group-hover:scale-105"
+                                className="object-cover animate-slow-zoom transition-all duration-[3s] group-hover:scale-105"
+                                quality={95}
                             />
                             {/* Inner Gold Ring highlight */}
                             <div className="absolute inset-0 rounded-t-full rounded-b-[36px] border border-brand-gold/20 pointer-events-none"></div>

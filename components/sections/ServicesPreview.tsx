@@ -75,10 +75,11 @@ export function ServicesPreview({ services }: ServicesPreviewProps) {
                                         alt={service.title || 'Service Image'}
                                         fill
                                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
-                                        className="object-cover grayscale-[0.2] transition-all duration-1000 group-hover:scale-110 group-hover:grayscale-0"
+                                        className="object-cover transition-all duration-1000 group-hover:scale-110"
+                                        quality={95}
                                     />
-                                    <div className="absolute inset-0 bg-brand-text/40 group-hover:bg-brand-text/20 transition-all duration-700"></div>
-                                    <div className="absolute inset-0 bg-gradient-to-t from-brand-text/80 via-brand-text/20 to-transparent"></div>
+                                    <div className="absolute inset-0 bg-brand-text/25 group-hover:bg-brand-text/10 transition-all duration-700"></div>
+                                    <div className="absolute inset-0 bg-gradient-to-t from-brand-text/75 via-brand-text/15 to-transparent"></div>
                                 </div>
 
                                 {/* Content Overlay */}
