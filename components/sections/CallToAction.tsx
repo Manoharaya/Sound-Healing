@@ -20,17 +20,17 @@ export function CallToAction() {
                 >
                     <div className="inline-flex items-center gap-3 mb-8">
                         <div className="w-12 h-[1px] bg-brand-beige/50"></div>
-                        <span className="text-[10px] font-bold text-brand-beige tracking-[0.4em] uppercase">Begin Your Journey</span>
+                        <span className="text-[10px] font-bold text-brand-beige tracking-[0.4em] uppercase">Ready to Feel More Like Yourself Again?</span>
                         <div className="w-12 h-[1px] bg-brand-beige/50"></div>
                     </div>
                 
                     <h2 className="font-serif text-5xl md:text-7xl text-white mb-8 tracking-tight leading-[1.1]">
-                        Ready to Return to <br />
-                        <span className="text-brand-beige italic font-light">Wellness & Balance?</span>
+                        Ready to Feel More Like <br />
+                        <span className="text-brand-beige italic font-light">Yourself Again?</span>
                     </h2>
                     
                     <p className="text-white/70 max-w-2xl mx-auto text-xl font-light leading-relaxed mb-12 italic">
-                        Experience profound clarity, stress reduction, and physical restoration. Step into our studio and let your wellness journey begin.
+                        {"Whether you're experiencing stress, emotional challenges or simply looking for greater balance in your life, we're here to support your journey."}
                     </p>
                     
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -38,14 +38,14 @@ export function CallToAction() {
                             href="/book" 
                             className="group px-12 py-5 bg-brand-beige text-brand-teal rounded-full font-bold text-xs tracking-[0.2em] uppercase shadow-[0_0_40px_rgba(232,226,238,0.2)] hover:bg-white transition-all hover:-translate-y-1 flex items-center justify-center gap-4"
                         >
-                            Reserve Your Session
+                            Book a Session
                             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />
                         </Link>
                         <Link 
                             href="/contact" 
                             className="group px-12 py-5 bg-transparent text-white border border-white/20 rounded-full font-bold text-xs tracking-[0.2em] uppercase hover:bg-white/10 transition-all flex items-center justify-center"
                         >
-                            Ask a Question
+                            Contact Us
                         </Link>
                     </div>
                 </motion.div>

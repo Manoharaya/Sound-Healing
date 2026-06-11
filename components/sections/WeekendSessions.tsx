@@ -9,9 +9,9 @@ import { Badge } from "@/components/ui/badge";
 const weekendSessions = [
   {
     id: "friday-unwind",
-    title: "The Friday Unwind",
+    title: "Friday Sound Session",
     tagline: "Because you have a trip switch too.",
-    description: "Your weekly circuit breaker. Designed for busy minds, tense bodies, and nervous systems that haven't fully switched off all week.",
+    description: "A relaxing end-of-week session designed to help you release stress, calm your mind, and transition into a restful weekend.",
     duration: "60 MINS",
     price: 45,
     image: "/lemuria-assets/services/sound-bowls.jpg",
@@ -19,9 +19,9 @@ const weekendSessions = [
   },
   {
     id: "saturday-reset",
-    title: "The Saturday Reset",
+    title: "Saturday Sound Session",
     tagline: "Your day off deserves to feel like one.",
-    description: "Step out of doing mode and into being mode, so the rest of your weekend actually feels like a weekend.",
+    description: "A dedicated weekend session to help you step away from daily stress, relax deeply, and restore balance.",
     duration: "75 MINS",
     price: 50,
     image: "/lemuria-assets/services/singing-bowls.jpg",
@@ -29,9 +29,9 @@ const weekendSessions = [
   },
   {
     id: "sunday-restoration",
-    title: "The Sunday Restoration",
+    title: "Sunday Sound Session",
     tagline: "Arrive restored. Not just rested.",
-    description: "Deep sound frequencies, breathwork, and guided stillness to clear the week's residue and rebuild your inner resources.",
+    description: "A restorative session combining sound therapy and breathwork to help you clear stress and prepare for the week ahead.",
     duration: "90 MINS",
     price: 60,
     image: "/lemuria-assets/services/healing-session.jpg",
@@ -56,14 +56,14 @@ export function WeekendSessions() {
         >
           <div className="inline-flex items-center gap-3 mb-8">
             <div className="w-12 h-[1px] bg-brand-gold/50"></div>
-            <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Sacred Rhythm</span>
+            <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Weekend Sessions</span>
             <div className="w-12 h-[1px] bg-brand-gold/50"></div>
           </div>
           <h2 className="font-serif text-5xl md:text-6xl font-medium text-brand-text mb-8 tracking-tight">
             Weekend <span className="text-brand-teal italic font-light">Sessions</span>
           </h2>
           <p className="text-brand-text/50 max-w-2xl mx-auto leading-relaxed font-light text-lg italic">
-            Reconnect and reset. Dedicated spaces designed to transition your system from weekly load to spacious rest.
+            Dedicated weekend sessions to help you unwind, reset and restore balance.
           </p>
         </motion.div>
 

@@ -50,7 +50,7 @@ export function Hero() {
     };
 
     return (
-        <section id="hero" className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-[#FAF9F6] pt-24">
+        <section id="hero" className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-[#FAF9F6] pt-32 lg:pt-40 pb-20">
             {/* Immersive Background: Moving Gradient */}
             <div className="absolute inset-0 z-0 animate-gradient-slow opacity-60 bg-gradient-to-br from-brand-beige via-white to-brand-teal/20"></div>
             
@@ -89,11 +89,11 @@ export function Hero() {
                                 variants={h2Variants}
                                 className="text-brand-teal font-serif text-xl md:text-2xl italic font-light mb-4"
                             >
-                                Sound Therapy | Kinesiology | Intuitive Healing
+                                Kinesiology | Sound Therapy | Aromatherapy
                             </motion.h2>
                             <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-medium text-brand-text mb-8 leading-[1.05] tracking-tight">
                                 <motion.span variants={wordContainerVariants} className="block">
-                                    {"Live the Life".split(" ").map((word, i) => (
+                                    {"Feel More Balanced,".split(" ").map((word, i) => (
                                         <span key={i} className="inline-block overflow-hidden mr-3 pb-2 -mb-2">
                                             <motion.span variants={wordVariants} className="inline-block">
                                                 {word}
@@ -102,7 +102,7 @@ export function Hero() {
                                     ))}
                                 </motion.span>
                                 <motion.span variants={wordContainerVariants} className="block text-brand-teal italic font-light">
-                                    {"You Want".split(" ").map((word, i) => (
+                                    {"Calm and Connected".split(" ").map((word, i) => (
                                         <span key={i} className="inline-block overflow-hidden mr-3 pb-2 -mb-2">
                                             <motion.span variants={wordVariants} className="inline-block">
                                                 {word}
@@ -119,7 +119,7 @@ export function Hero() {
                             transition={{ duration: 0.8, delay: 0.4 }}
                             className="max-w-xl text-lg md:text-xl text-brand-text/60 mb-12 leading-relaxed font-light italic"
                         >
-                            Reconnect with your natural frequency and restore harmony to your mind, body, and spirit.
+                            Support your emotional, physical and mental wellbeing through personalised healing sessions designed to help you reduce stress, gain clarity and reconnect with yourself.
                         </motion.p>
                         
                         <motion.div 
@@ -153,7 +153,7 @@ export function Hero() {
                         <div className="relative z-10 w-full max-w-[380px] mx-auto h-[500px] rounded-t-full rounded-b-[40px] overflow-hidden shadow-[0_20px_60px_rgba(45,90,71,0.15)] group border-4 border-white">
                             <Image 
                                 src="/lemuria-assets/hero/jenny-hero.jpg" 
-                                alt="Jenny Gillson - Master Vibrational Therapist" 
+                                alt="Jenny Gillson - Certified Practitioner" 
                                 fill
                                 priority
                                 sizes="(max-width: 768px) 100vw, 380px"
@@ -175,8 +175,8 @@ export function Hero() {
                                 <span className="text-brand-gold text-sm">✨</span>
                             </div>
                             <div>
-                                <p className="font-serif text-brand-text font-bold text-sm leading-none mb-1">Master Practitioner</p>
-                                <p className="text-[9px] uppercase font-bold tracking-[0.2em] text-brand-text/50">Certified Therapy</p>
+                                <p className="font-serif text-brand-text font-bold text-sm leading-none mb-1">Certified Practitioner</p>
+                                <p className="text-[9px] uppercase font-bold tracking-[0.2em] text-brand-text/50">15+ Years Experience</p>
                             </div>
                         </motion.div>
 
@@ -190,8 +190,8 @@ export function Hero() {
                             className="absolute bottom-12 -right-8 bg-white/90 p-6 shadow-premium rounded-[30px] z-20 hidden lg:block border border-brand-gold/20"
                         >
                             <div className="text-center">
-                                <p className="font-serif text-3xl font-bold text-brand-teal mb-1">Mount Martha</p>
-                                <p className="text-[10px] uppercase font-bold tracking-[0.3em] text-brand-gold">Healing Sanctuary</p>
+                                <p className="font-serif text-3xl font-bold text-brand-teal mb-1">Perth</p>
+                                <p className="text-[10px] uppercase font-bold tracking-[0.3em] text-brand-gold">Perth Studio</p>
                             </div>
                         </motion.div>
                     </motion.div>
@@ -205,7 +205,7 @@ export function Hero() {
                 transition={{ delay: 2, duration: 1 }}
                 className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 cursor-pointer"
             >
-                <span className="text-[10px] font-bold text-brand-text/30 tracking-[0.4em] uppercase">Begin Journey</span>
+                <span className="text-[10px] font-bold text-brand-text/30 tracking-[0.4em] uppercase">Perth Studio</span>
                 <div className="w-[1px] h-12 bg-gradient-to-b from-brand-gold/50 to-transparent"></div>
             </motion.div>
         </section>

@@ -37,20 +37,19 @@ export function Footer() {
                                     </svg>
                                 </div>
                                 <div className="flex flex-col text-left font-sans">
-                                    <span className="text-base font-bold tracking-[0.25em] text-white uppercase">Heart</span>
-                                    <span className="text-[10px] font-bold tracking-[0.4em] text-brand-gold uppercase">Strong</span>
+                                    <span className="text-base font-bold tracking-[0.25em] text-white uppercase">Lemuria</span>
                                 </div>
                             </div>
                         </Link>
                         <p className="text-white/40 text-sm leading-relaxed mb-8 font-light italic">
-                            &ldquo;Empowering physical wellness and emotional resilience through grounded kinesiology and sound therapy education.&ldquo;
+                            &ldquo;Helping you reduce stress, find clarity and feel more like yourself again.&rdquo;
                         </p>
                         <div className="flex gap-10">
-                            <a href="https://instagram.com/heartstrong" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-gold transition-colors">
+                            <a href="https://instagram.com/lemuriahealing" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-gold transition-colors">
                                 <Instagram className="w-5 h-5" />
                                 <span className="sr-only">Instagram</span>
                             </a>
-                            <a href="https://facebook.com/heartstrong" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-gold transition-colors">
+                            <a href="https://facebook.com/lemuriahealing" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-gold transition-colors">
                                 <Facebook className="w-5 h-5" />
                                 <span className="sr-only">Facebook</span>
                             </a>
@@ -61,13 +60,13 @@ export function Footer() {
                     <div>
                         <h4 className="text-white font-bold mb-8 text-[10px] uppercase tracking-[0.2em]">The Path</h4>
                         <ul className="space-y-4">
-                            <li><Link href="/services" className="text-white/40 hover:text-white text-sm transition-colors font-light">Modalities</Link></li>
-                            <li><Link href="/coaching" className="text-white/40 hover:text-white text-sm transition-colors font-light">Divine Coaching</Link></li>
-                            <li><Link href="/sound-healing" className="text-white/40 hover:text-white text-sm transition-colors font-light">Sound Sanctuary</Link></li>
-                            <li><Link href="/friday-unwind" className="text-white/40 hover:text-white text-sm transition-colors font-light">Friday Unwind</Link></li>
-                            <li><Link href="/saturday-reset" className="text-white/40 hover:text-white text-sm transition-colors font-light">Saturday Reset</Link></li>
-                            <li><Link href="/sunday-restoration" className="text-white/40 hover:text-white text-sm transition-colors font-light">Sunday Restoration</Link></li>
-                            <li><Link href="/workshops" className="text-white/40 hover:text-white text-sm transition-colors font-light">Gatherings</Link></li>
+                            <li><Link href="/services" className="text-white/40 hover:text-white text-sm transition-colors font-light">Services</Link></li>
+                            <li><Link href="/coaching" className="text-white/40 hover:text-white text-sm transition-colors font-light">Corporate Wellbeing</Link></li>
+                            <li><Link href="/sound-healing" className="text-white/40 hover:text-white text-sm transition-colors font-light">Sound Therapy</Link></li>
+                            <li><Link href="/friday-unwind" className="text-white/40 hover:text-white text-sm transition-colors font-light">Friday Sound Session</Link></li>
+                            <li><Link href="/saturday-reset" className="text-white/40 hover:text-white text-sm transition-colors font-light">Saturday Sound Session</Link></li>
+                            <li><Link href="/sunday-restoration" className="text-white/40 hover:text-white text-sm transition-colors font-light">Sunday Sound Session</Link></li>
+                            <li><Link href="/workshops" className="text-white/40 hover:text-white text-sm transition-colors font-light">Workshops & Events</Link></li>
                         </ul>
                     </div>
 
@@ -75,7 +74,7 @@ export function Footer() {
                     <div>
                         <h4 className="text-white font-bold mb-8 text-[10px] uppercase tracking-[0.2em]">Sanctuary</h4>
                         <ul className="space-y-4">
-                            <li><Link href="/testimonials" className="text-white/40 hover:text-white text-sm transition-colors font-light">Soul Stories</Link></li>
+                            <li><Link href="/testimonials" className="text-white/40 hover:text-white text-sm transition-colors font-light">Testimonials</Link></li>
                             <li><Link href="/contact" className="text-white/40 hover:text-white text-sm transition-colors font-light">Connect</Link></li>
                             <li><Link href="/privacy" className="text-white/40 hover:text-white text-sm transition-colors font-light">Privacy Policy</Link></li>
                         </ul>
@@ -83,15 +82,15 @@ export function Footer() {
 
                     {/* Newsletter */}
                     <div>
-                        <h4 className="text-white font-bold mb-8 text-[10px] uppercase tracking-[0.2em]">Vibration Circle</h4>
-                        <p className="text-white/40 text-sm mb-6 leading-relaxed font-light">Join our circle for celestial updates and frequency insights.</p>
+                        <h4 className="text-white font-bold mb-8 text-[10px] uppercase tracking-[0.2em]">Stay Connected</h4>
+                        <p className="text-white/40 text-sm mb-6 leading-relaxed font-light">Join our community for wellbeing tips and upcoming events.</p>
                         <NewsletterForm variant="footer" />
                     </div>
                 </div>
 
                 {/* Bottom Bar */}
                 <div className="flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.25em] font-bold text-white/20 gap-6 pt-12 border-t border-white/5">
-                    <p>© {currentYear} Heart Strong. All Rights Reserved.</p>
+                    <p>© {currentYear} Lemuria. All Rights Reserved.</p>
                     <div className="flex items-center gap-2">
                         <span>Designed for</span>
                         <span className="text-brand-gold">Jenny Gillson</span>

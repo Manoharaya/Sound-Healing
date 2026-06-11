@@ -73,7 +73,7 @@ export function WorkshopCountdown({ workshop }: WorkshopCountdownProps) {
             >
               <div className="inline-flex items-center gap-3 mb-8 px-6 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm">
                 <div className="w-2 h-2 bg-brand-gold rounded-full animate-pulse"></div>
-                <span className="text-[10px] font-bold tracking-[0.3em] uppercase">Limited Availability</span>
+                <span className="text-[10px] font-bold tracking-[0.3em] uppercase">Upcoming Events</span>
               </div>
               <h2 className="font-serif text-5xl md:text-6xl mb-6 leading-tight">
                 Next {workshop.title.split(' ')[0]} <br />
@@ -148,7 +148,7 @@ export function WorkshopCountdown({ workshop }: WorkshopCountdownProps) {
               <div className="mt-12 w-full h-[1px] bg-white/20 relative">
                   <div className="absolute top-1/2 left-0 w-1/3 h-[2px] bg-brand-gold -translate-y-1/2"></div>
               </div>
-              <p className="mt-6 text-xs text-white italic font-light">"Reserve your spot today to begin your wellness journey."</p>
+              <p className="mt-6 text-xs text-white italic font-light">"Reserve your spot today."</p>
             </div>
           </motion.div>
         </div>

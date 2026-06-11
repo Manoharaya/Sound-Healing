@@ -249,16 +249,16 @@ export function BookingFlow({ services, workshops, defaultServiceId, defaultWork
     };
 
     const title = selectedItem.title || ('name' in selectedItem ? (selectedItem as Service).name : '') || 'Session';
-    const summary = `${title} - Heart Strong`;
+    const summary = `${title} - Lemuria`;
     const description = `Booking for ${formData.firstName} ${formData.lastName}.\\nWhat to bring: Just yourself.`;
-    const location = "Heart Strong Studio, Sanctuary Room";
+    const location = "Lemuria Studio, Perth";
 
     const icsContent = [
       "BEGIN:VCALENDAR",
       "VERSION:2.0",
-      "PRODID:-//Heart Strong//Booking Calendar//EN",
+      "PRODID:-//Lemuria//Booking Calendar//EN",
       "BEGIN:VEVENT",
-      `UID:booking-${Date.now()}@heartstrong.com.au`,
+      `UID:booking-${Date.now()}@lemuriahealing.com.au`,
       `DTSTAMP:${formatICSDate(new Date())}`,
       `DTSTART:${formatICSDate(startDate)}`,
       `DTEND:${formatICSDate(endDate)}`,
@@ -778,7 +778,7 @@ export function BookingFlow({ services, workshops, defaultServiceId, defaultWork
                     <div className="flex gap-3 items-center">
                       <MapPin className="w-4 h-4 text-brand-gold shrink-0" />
                       <span className="text-brand-text/80 text-sm font-light">
-                        Heart Strong Studio, Sanctuary Room
+                        Lemuria Studio, Perth
                       </span>
                     </div>
 

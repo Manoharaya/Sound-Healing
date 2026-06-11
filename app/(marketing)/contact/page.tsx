@@ -5,7 +5,7 @@ import { ContactForm } from '@/components/forms/ContactForm';
 
 
 export const metadata = {
-  title: "Connect | Heart Strong",
+  title: "Connect | Lemuria",
   description: "Reach out to schedule private sessions, corporate wellness programs, or general inquiries.",
 };
 
@@ -29,7 +29,7 @@ export default function ContactPage() {
                         Begin Your <br /><span className="text-brand-teal italic font-light">Consultation</span>
                     </h2>
                     <p className="text-brand-text/50 max-w-2xl text-xl font-light leading-relaxed italic border-l-2 border-brand-teal/10 pl-8">
-                        &ldquo;Reach out to schedule private sessions, corporate wellness programs, or to ask questions about our sound therapy and educational workshops.&rdquo;
+                        &ldquo;Reach out to schedule private sessions, corporate wellness programs, or to ask questions about our sound therapy, kinesiology and aromatherapy.&rdquo;
                     </p>
                 </div>
 
@@ -44,7 +44,7 @@ export default function ContactPage() {
                                     </div>
                                     <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">Email Address</p>
                                 </div>
-                                <p className="text-2xl font-serif text-brand-text group-hover:text-brand-teal transition-colors duration-500">hello@heartstrong.com.au</p>
+                                <p className="text-2xl font-serif text-brand-text group-hover:text-brand-teal transition-colors duration-500">hello@lemuriahealing.com.au</p>
                             </div>
                             
                             <div className="group">
@@ -64,8 +64,8 @@ export default function ContactPage() {
                                     </div>
                                     <p className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">Our Location</p>
                                 </div>
-                                <p className="text-2xl font-serif text-brand-text group-hover:text-brand-teal transition-colors duration-500 leading-relaxed italic truncate">Mount Martha, Victoria</p>
-                                <p className="text-sm text-brand-text/30 font-light mt-1">Mornington Peninsula, Australia</p>
+                                <p className="text-2xl font-serif text-brand-text group-hover:text-brand-teal transition-colors duration-500 leading-relaxed italic truncate">Perth, Western Australia</p>
+                                <p className="text-sm text-brand-text/30 font-light mt-1">Perth, Australia</p>
                             </div>
                         </div>
                         

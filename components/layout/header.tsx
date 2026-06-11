@@ -16,9 +16,9 @@ import { Menu, Sparkles, ArrowRight } from "lucide-react";
 const navigationLinks = [
     { name: "Home", href: "/" },
     { name: "Services", href: "/services" },
-    { name: "Coaching", href: "/coaching" },
-    { name: "Sound Healing", href: "/sound-healing" },
-    { name: "Workshops", href: "/workshops" },
+    { name: "Corporate Wellbeing", href: "/coaching" },
+    { name: "Sound Therapy", href: "/sound-healing" },
+    { name: "Workshops & Events", href: "/workshops" },
     { name: "Testimonials", href: "/testimonials" },
 ];
 
@@ -77,8 +77,7 @@ export function Header() {
                                     </svg>
                                 </div>
                                 <div className="flex flex-col text-left">
-                                    <span className="text-base font-bold tracking-[0.25em] text-brand-teal uppercase font-sans">Heart</span>
-                                    <span className="text-[10px] font-bold tracking-[0.4em] text-brand-gold uppercase font-sans">Strong</span>
+                                    <span className="text-base font-bold tracking-[0.25em] text-brand-teal uppercase font-sans">Lemuria</span>
                                 </div>
                             </div>
                         </Link>
@@ -139,8 +138,7 @@ export function Header() {
                             </svg>
                         </div>
                         <div className="flex flex-col text-left">
-                            <span className="text-sm font-bold tracking-[0.2em] text-brand-teal uppercase font-sans">Heart</span>
-                            <span className="text-[8px] font-bold tracking-[0.3em] text-brand-gold uppercase font-sans">Strong</span>
+                            <span className="text-sm font-bold tracking-[0.25em] text-brand-teal uppercase font-sans">Lemuria</span>
                         </div>
                     </Link>
 
@@ -162,7 +160,7 @@ export function Header() {
                                             <div className="w-10 h-10 rounded-full bg-brand-teal flex items-center justify-center shadow-premium">
                                                 <Sparkles className="w-5 h-5 text-white" />
                                             </div>
-                                            <span>Heart <span className="text-brand-teal italic font-light">Strong Menu</span></span>
+                                            <span>Lemuria <span className="text-brand-teal italic font-light">Menu</span></span>
                                         </SheetTitle>
                                 </SheetHeader>
                                 
@@ -188,7 +186,7 @@ export function Header() {
                                         onClick={() => setIsOpen(false)}
                                         className="px-8 py-5 bg-brand-teal text-white rounded-full text-xs font-bold tracking-widest uppercase text-center shadow-premium hover:shadow-premiumHover transition-all"
                                     >
-                                        Reserve Your Session
+                                        Book a Session
                                     </Link>
                                     <Link 
                                         href="/admin/dashboard" 

@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: "Privacy Policy | Heart Strong",
-  description: "Privacy policy and terms of service for Heart Strong.",
+  title: "Privacy Policy | Lemuria",
+  description: "Privacy policy and terms of service for Lemuria.",
 };
 
 export default function PrivacyPage() {
@@ -15,7 +15,7 @@ export default function PrivacyPage() {
         
         <div className="space-y-8 text-lg text-brand-text/70 leading-relaxed font-light">
             <p>
-                At Heart Strong, we hold your personal data in the highest trust. This Privacy Policy outlines how we collect, use, and protect the information you share with us.
+                At Lemuria, we hold your personal data in the highest trust. This Privacy Policy outlines how we collect, use, and protect the information you share with us.
             </p>
             
             <h2 className="text-2xl font-serif text-brand-text mt-12 mb-4">Information We Collect</h2>
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
             
             <h2 className="text-2xl font-serif text-brand-text mt-12 mb-4">Your Privacy Rights</h2>
             <p>
-                You retain complete autonomy over your data. If you wish to be removed from our records at any point, simply reach out to us at <a href="mailto:hello@heartstrong.com.au" className="text-brand-teal underline">hello@heartstrong.com.au</a>.
+                You retain complete autonomy over your data. If you wish to be removed from our records at any point, simply reach out to us at <a href="mailto:hello@lemuriahealing.com.au" className="text-brand-teal underline">hello@lemuriahealing.com.au</a>.
             </p>
             
             <p className="mt-16 text-sm italic text-brand-text/50">

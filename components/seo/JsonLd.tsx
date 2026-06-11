@@ -2,23 +2,23 @@ export function JsonLd() {
   const businessData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Heart Strong",
-    "image": "https://www.heartstrong.com.au/assets/logo.png",
-    "@id": "https://www.heartstrong.com.au",
-    "url": "https://www.heartstrong.com.au",
+    "name": "Lemuria",
+    "image": "https://lemuriahealing.com.au/lemuria-assets/logo/logo.png",
+    "@id": "https://lemuriahealing.com.au",
+    "url": "https://lemuriahealing.com.au",
     "telephone": "0435 720 595",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Mornington Peninsula",
-      "addressLocality": "Melbourne",
-      "addressRegion": "VIC",
-      "postalCode": "3931",
+      "streetAddress": "Perth Studio",
+      "addressLocality": "Perth",
+      "addressRegion": "WA",
+      "postalCode": "6000",
       "addressCountry": "AU"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -38.214,
-      "longitude": 145.034
+      "latitude": -31.9505,
+      "longitude": 115.8605
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -33,8 +33,8 @@ export function JsonLd() {
       "closes": "17:00"
     },
     "sameAs": [
-      "https://www.facebook.com/heartstrong",
-      "https://www.instagram.com/heartstrong"
+      "https://www.facebook.com/lemuriahealing",
+      "https://www.instagram.com/lemuriahealing"
     ]
   };
 

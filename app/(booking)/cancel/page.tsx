@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Home, Calendar, XCircle, Sparkles } from 'lucide-react';
 
 export const metadata = {
-  title: "Booking Cancelled | Heart Strong",
+  title: "Booking Cancelled | Lemuria",
   description: "Your booking process was cancelled. We are here whenever you are ready.",
 };
 
@@ -53,7 +53,7 @@ export default function CancelPage() {
         </div>
 
         <p className="mt-24 text-[10px] font-bold text-brand-text/20 uppercase tracking-[0.4em]">
-          Sound Therapy • Educational Wellness • Heart Strong
+          Sound Therapy • Educational Wellness • Lemuria
         </p>
       </div>
     </div>

@@ -5,8 +5,8 @@ import { getWorkshops } from '@/actions/workshops/getWorkshops';
 import { CallToAction } from '@/components/sections/CallToAction';
 
 export const metadata = {
-  title: "Workshops | Heart Strong",
-  description: "Join our seasonal educational wellness workshops, bodywork seminars, and sound therapy retreats.",
+  title: "Workshops | Lemuria",
+  description: "Join us for educational and restorative workshops designed to support personal growth and wellbeing.",
 };
 
 export default async function WorkshopsPage() {

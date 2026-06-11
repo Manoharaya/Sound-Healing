@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/admin/', '/api/', '/success', '/cancel'],
     },
-    sitemap: 'https://www.heartstrong.com.au/sitemap.xml',
+    sitemap: 'https://lemuriahealing.com.au/sitemap.xml',
   };
 }

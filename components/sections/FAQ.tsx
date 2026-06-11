@@ -7,19 +7,19 @@ import { useState } from "react";
 const faqs = [
   {
     question: "What happens during a sound healing session?",
-    answer: "You will lay comfortably while various instruments like singing bowls, gongs, and chimes are played around you. The vibrations help recalibrate your nervous system and induce a state of deep meditation."
+    answer: "You will lie comfortably while therapeutic instruments including singing bowls, gongs and chimes are played around you. The session is designed to promote deep relaxation and reduce stress."
   },
   {
-    question: "How long does it take to see results?",
-    answer: "Many clients feel an immediate shift in their energy and stress levels after just one session. For long-standing blockages, a series of 3-5 sessions is often recommended for deep integration."
+    question: "How many sessions will I need?",
+    answer: "This varies depending on your individual goals and what you're working on. Many clients notice a shift after their first session. We recommend discussing this during your initial consultation."
   },
   {
-    question: "Is energy healing safe for everyone?",
-    answer: "Energy healing is non-invasive and generally safe for everyone. However, if you have a pacemaker or are in your first trimester of pregnancy, please inform us beforehand so we can adjust the sound frequencies accordingly."
+    question: "Is kinesiology suitable for everyone?",
+    answer: "Kinesiology is gentle and non-invasive and is suitable for most people. If you have any health concerns, please get in touch before booking and we can discuss whether it is right for you."
   },
   {
-    question: "Do I need any previous experience?",
-    answer: "No experience is necessary. All you need is an open mind and a willingness to receive. The frequencies do the work for you."
+    question: "Do I need previous experience?",
+    answer: "No experience is necessary. All you need to do is arrive, relax and be open to the process."
   }
 ];
 
@@ -35,9 +35,9 @@ export function FAQ() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase mb-4 block">Seeking Clarity</span>
+          <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase mb-4 block">Frequently Asked Questions</span>
           <h2 className="font-serif text-4xl md:text-5xl text-brand-text mb-8 tracking-tight">
-            Sacred <span className="text-brand-teal italic font-light">Questions</span>
+            Frequently Asked <span className="text-brand-teal italic font-light">Questions</span>
           </h2>
           <div className="w-16 h-[1px] bg-brand-gold/30 mx-auto"></div>
         </motion.div>

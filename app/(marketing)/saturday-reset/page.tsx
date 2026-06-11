@@ -4,8 +4,8 @@ import { CallToAction } from '@/components/sections/CallToAction';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "The Saturday Reset | Heart Strong",
-  description: "Arrive fully in your free time. Move from doing mode into being mode.",
+  title: "Saturday Sound Session | Lemuria",
+  description: "A dedicated weekend session to help you step away from daily stress, relax deeply, and restore balance.",
 };
 
 const outcomes = [
@@ -23,7 +23,7 @@ const details = [
   { icon: Calendar, label: "When", value: "Every Saturday morning" },
   { icon: Clock, label: "Duration", value: "75 mins" },
   { icon: Users, label: "Format", value: "Group session" },
-  { icon: MapPin, label: "Location", value: "Heart Strong Studio, Sanctuary Room" }
+  { icon: MapPin, label: "Location", value: "Lemuria Studio, Perth" }
 ];
 
 const faqs = [
@@ -55,13 +55,13 @@ export default function SaturdayResetPage() {
                 <span className="text-[10px] font-bold tracking-[0.4em] uppercase">Weekend Circle</span>
             </div>
             <h1 className="text-5xl md:text-8xl font-serif text-white tracking-tight leading-[1.1] mb-8 drop-shadow-premium">
-                The Saturday <span className="text-brand-beige italic font-light">Reset</span>
+                Saturday Sound <span className="text-brand-beige italic font-light">Session</span>
             </h1>
             <p className="max-w-3xl mx-auto text-xl md:text-2xl text-white/80 font-light leading-relaxed mb-4 font-serif italic">
                 &ldquo;Your day off deserves to feel like one.&rdquo;
             </p>
             <p className="max-w-2xl mx-auto text-sm md:text-base text-white/50 font-sans font-bold uppercase tracking-widest leading-relaxed">
-                {"For people who have the day but aren't really in it yet."}
+                {"A dedicated weekend session to help you step away from daily stress, relax deeply, and restore balance."}
             </p>
         </div>
       </section>
@@ -81,7 +81,7 @@ export default function SaturdayResetPage() {
                   You got up. The work stopped. But did you actually arrive?
                 </p>
                 <p>
-                  This session uses sound and breathwork to move you out of doing mode and into being mode — so the rest of your weekend actually feels like a weekend. Not just a pause between two versions of the same pressure.
+                  This session uses sound and breathwork to help you step away from daily stress, relax deeply, and restore balance — so the rest of your weekend actually feels like a weekend.
                 </p>
                 <p>
                   When you arrive in your own day, everything shifts. You make better choices. You connect more deeply. You rest without guilt. You remember what you actually enjoy.
@@ -133,7 +133,7 @@ export default function SaturdayResetPage() {
                     href="/book?service=saturday-reset" 
                     className="w-full inline-flex items-center justify-center gap-4 bg-brand-teal text-white py-5 rounded-full font-bold text-xs tracking-[0.2em] uppercase hover:bg-brand-text hover:-translate-y-1 transition-all shadow-premium"
                   >
-                    Reserve Your Spot
+                    Book a Session
                   </Link>
                 </div>
               </div>

@@ -38,7 +38,7 @@ export default function AdminLayout({
                         </div>
                         <div className="flex flex-col items-center text-center">
                             <span className="text-xl font-serif text-brand-text tracking-tight">
-                                Heart <span className="text-brand-teal italic font-light">Strong</span>
+                                Lemuria
                             </span>
                             <div className="flex items-center gap-2 mt-2">
                                  <div className="w-3 h-[1px] bg-brand-gold/40"></div>
@@ -67,7 +67,7 @@ export default function AdminLayout({
                         <div className="absolute inset-0 opacity-[0.05] pointer-events-none group-hover:scale-110 transition-transform duration-700" 
                              style={{ backgroundImage: "url('/lemuria-assets/backgrounds/teal-texture.jpg')", backgroundSize: 'cover' }}></div>
                         <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-gold mb-2 relative z-10">Sanctuary Support</p>
-                        <p className="text-sm font-light leading-relaxed relative z-10 opacity-80">Need help managing the frequency? Contact your tech guides.</p>
+                        <p className="text-sm font-light leading-relaxed relative z-10 opacity-80">Need help managing the website? Contact your tech guides.</p>
                     </div>
                 </div>
             </aside>
@@ -94,7 +94,7 @@ export default function AdminLayout({
                                 <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
                             </svg>
                         </div>
-                        <span className="text-lg font-serif text-brand-text">Heart Strong</span>
+                        <span className="text-lg font-serif text-brand-text">Lemuria</span>
                     </Link>
                     <div className="w-10 h-10 rounded-full bg-brand-teal/5 flex items-center justify-center">
                         <Users className="w-5 h-5 text-brand-teal" />

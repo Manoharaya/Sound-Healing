@@ -42,13 +42,14 @@ export function ServicesPreview({ services }: ServicesPreviewProps) {
                     >
                         <div className="inline-flex items-center gap-3 mb-8">
                             <div className="w-12 h-[1px] bg-brand-gold/50"></div>
-                            <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Vibrational Alchemy</span>
+                            <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Our Services</span>
                         </div>
                         <h2 className="font-serif text-5xl md:text-6xl font-medium text-brand-text mb-8 tracking-tight">
-                            Sacred <span className="text-brand-teal italic font-light">Modalities</span>
+                            Choose the Service <br />
+                            <span className="text-brand-teal italic font-light">{"That's Right for You"}</span>
                         </h2>
                         <p className="text-brand-text/50 max-w-2xl mx-auto leading-relaxed font-light text-lg italic">
-                            Select your portal to harmony. Each modality is a unique frequency designed to align your energetic field.
+                            {"Whether you're seeking stress relief, emotional support or personal growth, we offer a range of personalised sessions tailored to your needs."}
                         </p>
                     </motion.div>
                 )}
@@ -129,13 +130,13 @@ export function ServicesPreview({ services }: ServicesPreviewProps) {
                 >
                     {isServicesPage ? (
                         <Link href="/book" className="inline-flex items-center gap-6 text-brand-teal font-bold text-sm tracking-[0.3em] uppercase group">
-                            Book Your Sanctuary Session
+                            Book Your Session
                             <div className="w-12 h-[1px] bg-brand-teal/30 group-hover:w-24 transition-all duration-700"></div>
                             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />
                         </Link>
                     ) : (
                         <Link href="/services" className="inline-flex items-center gap-6 text-brand-teal font-bold text-sm tracking-[0.3em] uppercase group">
-                            Explore All Sacred Offerings
+                            View All Services
                             <div className="w-12 h-[1px] bg-brand-teal/30 group-hover:w-24 transition-all duration-700"></div>
                             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />
                         </Link>

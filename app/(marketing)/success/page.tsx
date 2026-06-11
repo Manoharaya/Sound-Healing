@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { CheckCircle2, Sparkles, ArrowRight } from 'lucide-react';
 
 export const metadata = {
-  title: "Message Received | Heart Strong",
+  title: "Message Received | Lemuria",
   description: "Your session registration or inquiry has been successfully received.",
 };
 
@@ -29,7 +29,7 @@ export default function SuccessPage() {
         </h1>
         
         <p className="text-xl text-brand-text/50 font-light leading-relaxed mb-16 italic">
-          &ldquo;Thank you for reaching out to Heart Strong. We have received your message and will be in touch with you shortly.&rdquo;
+          &ldquo;Thank you for reaching out to Lemuria. We have received your message and will be in touch with you shortly.&rdquo;
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center">

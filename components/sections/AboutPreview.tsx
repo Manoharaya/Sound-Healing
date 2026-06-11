@@ -23,7 +23,7 @@ export function AboutPreview() {
                         <div className="aspect-[4/5] relative rounded-[40px] overflow-hidden shadow-premium z-10 max-w-[400px] mx-auto">
                             <Image
                                 src="/lemuria-assets/services/singing-bowls.jpg"
-                                alt="Singing Bowls in Heart Strong Studio"
+                                alt="Singing Bowls in Lemuria Studio"
                                 fill
                                 priority
                                 sizes="(max-width: 1024px) 100vw, 400px"
@@ -47,32 +47,32 @@ export function AboutPreview() {
                     >
                         <div className="inline-flex items-center gap-3 mb-8">
                             <div className="w-12 h-[1px] bg-brand-gold/50"></div>
-                            <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Our Philosophy</span>
+                            <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase">Helping You Find Balance and Wellbeing</span>
                         </div>
                         
                         <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-medium text-brand-text mb-8 leading-[1.1]">
-                            Restoring Balance <br />
-                            <span className="text-brand-teal italic font-light">to Your Body and Mind</span>
+                            Helping You Find <br />
+                            <span className="text-brand-teal italic font-light">Balance and Wellbeing</span>
                         </h2>
                         
                         <div className="space-y-6 text-lg text-brand-text/70 font-light leading-relaxed">
                             <p>
-                                At Heart Strong, we understand that wellness is not the absence of sickness, but the presence of <span className="text-brand-text font-medium italic">vitality and balance</span>. Every aspect of your system is interconnected.
+                                At Lemuria, we believe that true wellbeing comes from feeling balanced, supported and connected to yourself. Life can leave us feeling stressed, overwhelmed, emotionally drained or physically out of sync.
                             </p>
                             <p>
-                                When life&apos;s stresses affect your natural well-being, we use sound therapy and kinesiology to restore balance. We support your body&apos;s natural ability to return to a rested, grounded state.
+                                {"Through a combination of sound therapy, kinesiology and intuitive guidance, we help you identify what's holding you back and support your body's natural ability to restore balance. Our sessions provide a safe and supportive space where you can relax, release tension and create positive change in your life."}
                             </p>
                         </div>
                         
                         <div className="mt-12 flex items-center gap-10">
                             <div>
-                                <p className="font-serif text-4xl font-bold text-brand-teal leading-none">Rest</p>
-                                <p className="text-[10px] uppercase font-bold tracking-widest text-brand-gold mt-2">Nervous System</p>
+                                <p className="font-serif text-3xl font-bold text-brand-teal leading-none">Personalised Support</p>
+                                <p className="text-[10px] uppercase font-bold tracking-widest text-brand-gold mt-2">Holistic Wellbeing</p>
                             </div>
                             <div className="h-12 w-[1px] bg-neutral-200"></div>
                             <div>
-                                <p className="font-serif text-4xl font-bold text-brand-teal leading-none">Growth</p>
-                                <p className="text-[10px] uppercase font-bold tracking-widest text-brand-gold mt-2">Evidence Based</p>
+                                <p className="font-serif text-3xl font-bold text-brand-teal leading-none">Mind-Body Connection</p>
+                                <p className="text-[10px] uppercase font-bold tracking-widest text-brand-gold mt-2">Practical Healing Tools</p>
                             </div>
                         </div>
                     </motion.div>

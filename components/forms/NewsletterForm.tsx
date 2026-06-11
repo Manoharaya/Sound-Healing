@@ -35,7 +35,7 @@ export function NewsletterForm({ variant = "default" }: { variant?: "default" | 
           <input 
             name="email"
             type="email" 
-            placeholder="Sacred Email" 
+            placeholder="Your email address" 
             aria-label="Email address for newsletter"
             required
             disabled={isSubmitting}
@@ -64,7 +64,7 @@ export function NewsletterForm({ variant = "default" }: { variant?: "default" | 
       <form className="flex flex-col sm:flex-row gap-4" onSubmit={handleSubmit}>
         <Input
           name="email"
-          placeholder="your@resonance.com"
+          placeholder="your.email@example.com"
           type="email"
           aria-label="Email address for newsletter"
           required

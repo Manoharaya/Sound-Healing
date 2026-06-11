@@ -22,7 +22,7 @@ export function AboutJenny() {
                     >
                         <div className="inline-flex items-center gap-3 mb-8 px-6 py-2 rounded-full bg-brand-teal/5 border border-brand-teal/10">
                             <Sparkles className="w-4 h-4 text-brand-teal" />
-                            <span className="text-[10px] font-bold text-brand-teal tracking-[0.3em] uppercase">The Educator & Therapist</span>
+                            <span className="text-[10px] font-bold text-brand-teal tracking-[0.3em] uppercase">Meet Jenny Gillson</span>
                         </div>
                         
                         <h2 className="font-serif text-4xl md:text-5xl font-medium text-brand-text mb-8 leading-tight">
@@ -32,10 +32,10 @@ export function AboutJenny() {
                         
                         <div className="space-y-6 text-lg text-brand-text/70 font-light leading-relaxed mb-12">
                             <p>
-                                With over 15 years of dedicated practice as a Kinesiologist and Sound Therapist, Jenny brings a unique synergy of evidence-based techniques and wellness practices to her sessions.
+                                With more than 15 years of experience in Kinesiology, Sound Therapy and Aromatherapy, Jenny combines professional training with a caring, client-focused approach.
                             </p>
                             <p>
-                                Her journey began with a deep interest in understanding the body’s natural recovery processes. Today, she supports clients in achieving their health and wellness goals using a curated blend of sound therapy, aromatherapy, and kinesiology protocols.
+                                Her work is centred on helping people reduce stress, overcome emotional blocks, improve wellbeing and reconnect with what matters most to them.
                             </p>
                         </div>
 
@@ -43,22 +43,22 @@ export function AboutJenny() {
                             <div className="flex gap-4">
                                 <Award className="w-6 h-6 text-brand-gold shrink-0" />
                                 <div>
-                                    <h4 className="font-serif font-bold text-brand-text">Experienced Sound Therapist</h4>
-                                    <p className="text-sm text-brand-text/50">Acoustic sound specialist</p>
+                                    <h4 className="font-serif font-bold text-brand-text">Kinesiology</h4>
+                                    <p className="text-sm text-brand-text/50">Neurological & Brain Integration</p>
                                 </div>
                             </div>
                             <div className="flex gap-4">
                                 <Heart className="w-6 h-6 text-brand-gold shrink-0" />
                                 <div>
-                                    <h4 className="font-serif font-bold text-brand-text">Wellness Mentor</h4>
-                                    <p className="text-sm text-brand-text/50">Individualized health coaching</p>
+                                    <h4 className="font-serif font-bold text-brand-text">Sound Therapy</h4>
+                                    <p className="text-sm text-brand-text/50">Crystal bowls, gongs & instruments</p>
                                 </div>
                             </div>
                             <div className="flex gap-4">
                                 <ShieldCheck className="w-6 h-6 text-brand-gold shrink-0" />
                                 <div>
-                                    <h4 className="font-serif font-bold text-brand-text">Certified Kinesiologist</h4>
-                                    <p className="text-sm text-brand-text/50">Scientific muscle monitoring</p>
+                                    <h4 className="font-serif font-bold text-brand-text">Aromatherapy</h4>
+                                    <p className="text-sm text-brand-text/50">Certified practitioner</p>
                                 </div>
                             </div>
                         </div>

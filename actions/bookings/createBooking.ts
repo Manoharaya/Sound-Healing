@@ -128,8 +128,8 @@ export async function createBooking(formData: FormData) {
     try {
       await sendEmail(
         validatedData.email,
-        'Booking Received - Heart Strong',
-        `<p>Dear ${validatedData.full_name},</p><p>Thank you for registering for the ${itemType}: <strong>${itemTitle}</strong>.</p><p><strong>Date:</strong> ${new Date(validatedData.session_date).toLocaleString()}</p><p>Please note: Your session will be fully confirmed upon successful payment.</p><br/><p>Warmly,<br/>Heart Strong Wellness</p>`
+        'Booking Received - Lemuria',
+        `<p>Dear ${validatedData.full_name},</p><p>Thank you for registering for the ${itemType}: <strong>${itemTitle}</strong>.</p><p><strong>Date:</strong> ${new Date(validatedData.session_date).toLocaleString()}</p><p>Please note: Your session will be fully confirmed upon successful payment.</p><br/><p>Warmly,<br/>Lemuria Wellness</p>`
       );
     } catch (err) {
       console.warn('Email sending failed (skipped in dev mode):', err);
@@ -152,7 +152,7 @@ export async function createBooking(formData: FormData) {
               currency: 'aud',
               product_data: {
                 name: `${itemType}: ${itemTitle}`,
-                description: `Booking for ${validatedData.full_name} — Heart Strong Wellness`,
+                description: `Booking for ${validatedData.full_name} — Lemuria Wellness`,
               },
               unit_amount: unitAmount,
             },

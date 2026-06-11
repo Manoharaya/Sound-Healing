@@ -4,7 +4,7 @@ import { getWorkshops } from '@/actions/workshops/getWorkshops';
 import { BookingFlow } from '@/components/booking/BookingFlow';
 
 export const metadata = {
-  title: "Book a Session | Heart Strong",
+  title: "Book a Session | Lemuria",
   description: "Schedule your private sound therapy session or reserve your spot in our weekend group educational workshops.",
 };
 

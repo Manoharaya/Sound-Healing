@@ -5,8 +5,8 @@ import { Sparkles } from 'lucide-react';
 import { CallToAction } from '@/components/sections/CallToAction';
 
 export const metadata = {
-  title: "Origin & Vision | Heart Strong",
-  description: "Learn about Jenny, our kinesiologist and sound therapist, and the vision behind Heart Strong.",
+  title: "Origin & Vision | Lemuria",
+  description: "Learn about Jenny, our kinesiologist and sound therapist, and the vision behind Lemuria.",
 };
 
 export default function AboutPage() {
@@ -26,7 +26,7 @@ export default function AboutPage() {
             Origin & <span className="text-brand-gold italic font-light">Vision</span>
           </h1>
           <p className="max-w-3xl mx-auto text-xl text-white/70 font-light leading-relaxed italic">
-            &ldquo;Guided by evidence-based wellness modalities, discover the journey behind the Mornington Peninsula&rsquo;s most grounded wellness studio.&rdquo;
+            &ldquo;Guided by evidence-based wellness modalities, discover the journey behind Perth&rsquo;s most grounded wellness studio.&rdquo;
           </p>
         </div>
       </section>
@@ -41,7 +41,7 @@ export default function AboutPage() {
           <h2 className="text-5xl font-serif text-brand-text mb-12 relative z-10 leading-[1.1]">The Philosophy of <br/><span className="text-brand-teal italic font-light">Wellness</span></h2>
           <div className="space-y-8 text-brand-text/60 font-light text-xl leading-relaxed relative z-10 italic">
             <p>
-              At Heart Strong, we believe every human system operates best in a state of balance. High stress, physical fatigue, or emotional blockages alter these natural wellness states, resulting in tension within the mind and body.
+              At Lemuria, we believe every human system operates best in a state of balance. High stress, physical fatigue, or emotional blockages alter these natural wellness states, resulting in tension within the mind and body.
             </p>
             <p>
               Through expert sound therapy and kinesiology - using clinical sound tools, specialized tuning forks, and muscle monitoring - we support client realignment. This allows the nervous system to naturally transition back into its optimal state of calm.

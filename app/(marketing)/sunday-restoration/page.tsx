@@ -4,7 +4,7 @@ import { CallToAction } from '@/components/sections/CallToAction';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "The Sunday Restoration | Heart Strong",
+  title: "The Sunday Restoration | Lemuria",
   description: "Arrive restored. Rebuild your inner resource to meet the week ahead with steadiness.",
 };
 
@@ -23,7 +23,7 @@ const details = [
   { icon: Calendar, label: "When", value: "Every Sunday afternoon" },
   { icon: Clock, label: "Duration", value: "90 mins" },
   { icon: Users, label: "Format", value: "Group session" },
-  { icon: MapPin, label: "Location", value: "Heart Strong Studio, Sanctuary Room" }
+  { icon: MapPin, label: "Location", value: "Lemuria Studio, Perth" }
 ];
 
 const faqs = [

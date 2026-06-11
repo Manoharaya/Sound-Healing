@@ -4,8 +4,8 @@ import { CallToAction } from '@/components/sections/CallToAction';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "The Friday Unwind | Heart Strong",
-  description: "Your weekly circuit breaker. Reset your nervous system and shift into rest and restore.",
+  title: "Friday Sound Session | Lemuria",
+  description: "A relaxing end-of-week session designed to help you release stress, calm your mind, and transition into a restful weekend.",
 };
 
 const outcomes = [
@@ -24,7 +24,7 @@ const details = [
   { icon: Calendar, label: "When", value: "Every Friday evening" },
   { icon: Clock, label: "Duration", value: "60 mins" },
   { icon: Users, label: "Format", value: "Group session" },
-  { icon: MapPin, label: "Location", value: "Heart Strong Studio, Sanctuary Room" }
+  { icon: MapPin, label: "Location", value: "Lemuria Studio, Perth" }
 ];
 
 const faqs = [
@@ -56,13 +56,13 @@ export default function FridayUnwindPage() {
                 <span className="text-[10px] font-bold tracking-[0.4em] uppercase">Weekend Circle</span>
             </div>
             <h1 className="text-5xl md:text-8xl font-serif text-white tracking-tight leading-[1.1] mb-8 drop-shadow-premium">
-                The Friday <span className="text-brand-beige italic font-light">Unwind</span>
+                Friday Sound <span className="text-brand-beige italic font-light">Session</span>
             </h1>
             <p className="max-w-3xl mx-auto text-xl md:text-2xl text-white/80 font-light leading-relaxed mb-4 font-serif italic">
                 &ldquo;Because you have a trip switch too.&rdquo;
             </p>
             <p className="max-w-2xl mx-auto text-sm md:text-base text-white/50 font-sans font-bold uppercase tracking-widest leading-relaxed">
-                {"For busy minds, tense bodies, and nervous systems that haven't fully switched off all week."}
+                {"A relaxing end-of-week session designed to help you release stress, calm your mind, and transition into a restful weekend."}
             </p>
         </div>
       </section>
@@ -131,7 +131,7 @@ export default function FridayUnwindPage() {
                      href="/book?service=friday-unwind" 
                     className="w-full inline-flex items-center justify-center gap-4 bg-brand-teal text-white py-5 rounded-full font-bold text-xs tracking-[0.2em] uppercase hover:bg-brand-text hover:-translate-y-1 transition-all shadow-premium"
                   >
-                    Reserve Your Spot
+                    Book a Session
                   </Link>
                 </div>
               </div>

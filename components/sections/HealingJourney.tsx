@@ -6,26 +6,26 @@ import { Sparkles, Calendar, Zap, RefreshCw } from "lucide-react";
 const steps = [
   {
     id: "01",
-    title: "Choose Your Service",
-    description: "Explore our offerings and select the session or program that aligns with your current goals.",
+    title: "Choose a Service",
+    description: "Explore our therapies and select the option that feels right for you.",
     icon: Sparkles,
   },
   {
     id: "02",
     title: "Book Your Session",
-    description: "Schedule your session through our seamless online booking system.",
+    description: "Schedule a convenient time through our online booking system.",
     icon: Calendar,
   },
   {
     id: "03",
-    title: "Experience Sessions",
-    description: "Attend the session and let sound therapy and kinesiology support your physical recovery.",
+    title: "Attend Your Session",
+    description: "Relax in a calm and supportive environment while we work together on your wellbeing goals.",
     icon: Zap,
   },
   {
     id: "04",
-    title: "Integrate & Restore",
-    description: "Leave refreshed. Maintain your wellness routine and build ongoing resilience.",
+    title: "Continue Your Growth",
+    description: "Take away practical insights and tools to help you feel more balanced and empowered in everyday life.",
     icon: RefreshCw,
   },
 ];
@@ -44,7 +44,7 @@ export function HealingJourney() {
           className="text-center mb-24"
         >
           <div className="inline-flex items-center gap-2 mb-6">
-            <span className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">The Process</span>
+            <span className="text-[10px] font-bold text-brand-gold uppercase tracking-[0.3em]">Your Journey With Us</span>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl text-brand-text mb-8 tracking-tight">
             Your Wellness <span className="text-brand-teal italic font-light">Journey</span>

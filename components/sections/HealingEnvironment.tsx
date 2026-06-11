@@ -7,17 +7,17 @@ const environmentImages = [
   {
     src: "/lemuria-assets/services/sound-bowls.jpg",
     title: "Sound Therapy",
-    description: "Relaxing the nervous system through focused acoustic therapy."
+    description: "Experience the calming effects of therapeutic sound and vibration."
   },
   {
     src: "/lemuria-assets/services/healing-session.jpg",
-    title: "The Studio",
-    description: "A quiet space designed to support physical and mental recovery."
+    title: "Private Healing Space",
+    description: "A comfortable and supportive setting for your session."
   },
   {
     src: "/lemuria-assets/services/singing-bowls.jpg",
-    title: "Therapeutic Instruments",
-    description: "Specialized crystal bowls and gongs."
+    title: "Professional Tools & Techniques",
+    description: "A combination of sound therapy, kinesiology and holistic wellbeing practices."
   }
 ];
 
@@ -31,12 +31,12 @@ export function HealingEnvironment() {
           viewport={{ once: true }}
           className="text-center mb-24"
         >
-          <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase mb-4 block">The Studio Environment</span>
+          <span className="text-[10px] font-bold text-brand-gold tracking-[0.4em] uppercase mb-4 block">A Calm and Supportive Environment</span>
           <h2 className="font-serif text-5xl md:text-6xl text-brand-text mb-8 tracking-tight">
-            Our Peaceful <span className="text-brand-teal italic font-light">Studio</span>
+            Our Perth <span className="text-brand-teal italic font-light">Studio</span>
           </h2>
           <p className="text-brand-text/50 max-w-2xl mx-auto leading-relaxed font-light text-lg italic">
-            Step into a quiet space designed to support relaxation and well-being.
+            Our Perth Studio has been created to help you slow down, relax and focus on your wellbeing.
           </p>
         </motion.div>
 

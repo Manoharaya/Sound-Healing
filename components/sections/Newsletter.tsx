@@ -28,11 +28,11 @@ export function Newsletter() {
 
           <h2 className="font-serif text-5xl md:text-6xl font-medium text-brand-text mb-10 tracking-tight leading-tight">
             Stay Connected to <br />
-            <span className="text-brand-teal italic font-light">Heart Strong</span>
+            <span className="text-brand-teal italic font-light">Lemuria</span>
           </h2>
           
           <p className="text-brand-text/50 max-w-2xl mx-auto leading-relaxed font-light text-lg italic mb-12">
-            Subscribe to receive wellness updates, self-care practices, and priority invitations to our educational workshops and retreats.
+            Join our community for wellbeing tips and upcoming events.
           </p>
 
           <div className="p-2 bg-white/50 backdrop-blur-md rounded-[30px] border border-white max-w-xl mx-auto shadow-premium">

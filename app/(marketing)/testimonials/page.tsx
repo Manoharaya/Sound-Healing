@@ -3,8 +3,8 @@ import { Testimonials } from '@/components/sections/Testimonials';
 import { Sparkles } from 'lucide-react';
 
 export const metadata = {
-  title: "Testimonials | Heart Strong",
-  description: "Read real stories of wellness and personal growth from our clients at Heart Strong.",
+  title: "Testimonials | Lemuria",
+  description: "Read client experiences and feedback about our sound therapy and kinesiology sessions at Lemuria.",
 };
 
 export default function TestimonialsPage() {

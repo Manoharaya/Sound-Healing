@@ -3,8 +3,8 @@ import { Music, Sparkles, Wind } from 'lucide-react';
 import { CallToAction } from '@/components/sections/CallToAction';
 
 export const metadata = {
-  title: "Sound Therapy | Heart Strong",
-  description: "Experience nervous system restoration through therapeutic soundscapes.",
+  title: "Sound Therapy | Lemuria",
+  description: "Experience the calming effects of therapeutic sound in a safe and supportive environment.",
 };
 
 export default function SoundHealingPage() {
@@ -43,7 +43,7 @@ export default function SoundHealingPage() {
             
             <div className="space-y-8 text-xl text-brand-text/60 leading-relaxed font-light max-w-3xl mx-auto">
               <p>
-                At Heart Strong, we run regular sound therapy sessions every Wednesday evening at <span className="text-brand-teal font-medium">6:30pm</span>. 
+                At Lemuria, we run regular sound therapy sessions every Wednesday evening at <span className="text-brand-teal font-medium">6:30pm</span>. 
                 This is a small group session with a maximum of 8 participants, ensuring a supportive and highly focused environment.
               </p>
               <p>

@@ -44,13 +44,13 @@ export async function sendMessage(formData: FormData) {
     // Send confirmation email to user
     await sendEmail(
       validatedData.email,
-      'Your Message to Heart Strong',
-      `<p>Dear ${validatedData.name},</p><p>Thank you for reaching out. We have received your message regarding "${validatedData.subject || 'General Inquiry'}" and will respond shortly.</p><br/><p>Warmly,<br/>Heart Strong Wellness</p>`
+      'Your Message to Lemuria',
+      `<p>Dear ${validatedData.name},</p><p>Thank you for reaching out. We have received your message regarding "${validatedData.subject || 'General Inquiry'}" and will respond shortly.</p><br/><p>Warmly,<br/>Lemuria Wellness</p>`
     );
 
     // Send notification email to admin
     await sendEmail(
-      'info@heartstrong.com.au',
+      'hello@lemuriahealing.com.au',
       'New Contact Inquiry Received',
       `<p><strong>Name:</strong> ${validatedData.name}</p><p><strong>Email:</strong> ${validatedData.email}</p><p><strong>Phone:</strong> ${validatedData.phone || 'N/A'}</p><p><strong>Subject:</strong> ${validatedData.subject}</p><p><strong>Message:</strong><br/>${validatedData.message}</p>`
     );

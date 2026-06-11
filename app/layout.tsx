@@ -13,35 +13,35 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.heartstrong.com.au"),
+  metadataBase: new URL("https://lemuriahealing.com.au"),
   title: {
-    default: "Jenny Gillson | Kinesiologist & Sound Therapist | Heart Strong",
-    template: "%s | Heart Strong",
+    default: "Jenny Gillson | Kinesiologist, Sound Therapist & Aromatherapist | Lemuria",
+    template: "%s | Lemuria",
   },
-  description: "Live the life you want. Empowering physical wellness and emotional resilience through kinesiology and sound therapy education at Heart Strong.",
-  keywords: ["Jenny Gillson", "Heart Strong", "sound therapy", "kinesiology", "Aromatherapy", "emotional wellness", "health education", "Victoria wellness"],
+  description: "Kinesiology, Sound Therapy & Aromatherapy in Perth. Personalised healing sessions with Jenny Gillson to help reduce stress, find clarity and restore balance.",
+  keywords: ["Jenny Gillson", "Lemuria", "sound therapy", "kinesiology", "Aromatherapy", "emotional wellness", "health education", "Perth wellness"],
   authors: [{ name: "Jenny Gillson" }],
   creator: "Jenny Gillson",
   openGraph: {
     type: "website",
     locale: "en_AU",
-    url: "https://www.heartstrong.com.au",
-    title: "Jenny Gillson | Kinesiologist & Sound Therapist",
-    description: "Live the life you want. Experience wellness education and emotional resilience coaching.",
-    siteName: "Heart Strong",
+    url: "https://lemuriahealing.com.au",
+    title: "Jenny Gillson | Kinesiologist, Sound Therapist & Aromatherapist",
+    description: "Kinesiology, Sound Therapy & Aromatherapy in Perth. Personalised healing sessions with Jenny Gillson to help reduce stress, find clarity and restore balance.",
+    siteName: "Lemuria",
     images: [
       {
         url: "/lemuria-assets/hero/jenny-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Jenny Gillson - Heart Strong",
+        alt: "Jenny Gillson - Lemuria",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Heart Strong | Jenny Gillson",
-    description: "Empowering physical wellness and emotional resilience through kinesiology and sound therapy.",
+    title: "Lemuria | Jenny Gillson",
+    description: "Kinesiology, Sound Therapy & Aromatherapy in Perth. Personalised healing sessions with Jenny Gillson to help reduce stress, find clarity and restore balance.",
     images: ["/lemuria-assets/hero/jenny-hero.jpg"],
   },
   robots: {
