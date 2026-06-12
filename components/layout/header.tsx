@@ -16,7 +16,7 @@ import { Menu, Sparkles, ArrowRight } from "lucide-react";
 const navigationLinks = [
     { name: "Home", href: "/" },
     { name: "Services", href: "/services" },
-    { name: "Corporate Wellbeing", href: "/coaching" },
+    { name: "Workplace Wellbeing", href: "/coaching" },
     { name: "Sound Therapy", href: "/sound-healing" },
     { name: "Workshops & Events", href: "/workshops" },
     { name: "Testimonials", href: "/testimonials" },

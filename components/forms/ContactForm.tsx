@@ -25,10 +25,10 @@ export function ContactForm() {
     const result = await sendMessage(formData);
 
     if (result.success) {
-      setStatus({ type: 'success', message: result.message || 'The vibration has been transmitted.' });
+      setStatus({ type: 'success', message: result.message || 'Your message has been sent.' });
       form.reset();
     } else {
-      setStatus({ type: 'error', message: result.error || 'The connection was interrupted.' });
+      setStatus({ type: 'error', message: result.error || 'Something went wrong. Please try again.' });
     }
     setIsSubmitting(false);
   };
@@ -64,7 +64,7 @@ export function ContactForm() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="space-y-3">
-          <label htmlFor="email" className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-gold ml-4">Energy Source (Email)</label>
+          <label htmlFor="email" className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-gold ml-4">Email Address</label>
           <Input 
             type="email" 
             id="email" 
@@ -72,7 +72,7 @@ export function ContactForm() {
             required
             disabled={isSubmitting}
             className="h-12 rounded-full border-brand-teal/10 bg-brand-bg px-6 focus:bg-white focus:ring-2 focus:ring-brand-gold/20 focus:border-brand-gold/50 transition-all outline-none text-brand-text font-light" 
-            placeholder="jane@resonance.com" 
+            placeholder="jane@example.com" 
           />
         </div>
         <div className="space-y-3">
@@ -89,7 +89,7 @@ export function ContactForm() {
       </div>
       
       <div className="space-y-3">
-        <label htmlFor="subject" className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-gold ml-4">Inquiry Path</label>
+        <label htmlFor="subject" className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-gold ml-4">Reason for Contact</label>
         <div className="relative">
           <select 
             id="subject" 
@@ -100,9 +100,9 @@ export function ContactForm() {
           >
             <option value="" disabled>Select a path...</option>
             <option value="private">Private Immersive Events</option>
-            <option value="corporate">Corporate Wellness</option>
+            <option value="workplace">Workplace Wellbeing</option>
             <option value="press">Press & Media</option>
-            <option value="other">General Resonance Inquiry</option>
+            <option value="other">General Inquiry</option>
           </select>
           <div className="absolute inset-y-0 right-8 flex items-center pointer-events-none">
             <svg className="w-4 h-4 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
@@ -111,7 +111,7 @@ export function ContactForm() {
       </div>
       
       <div className="space-y-3">
-        <label htmlFor="message" className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-gold ml-4">Your Intent</label>
+        <label htmlFor="message" className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-gold ml-4">Your Message</label>
         <textarea 
           id="message" 
           name="message"
@@ -135,7 +135,7 @@ export function ContactForm() {
           disabled={isSubmitting}
           className="w-full h-14 bg-brand-teal text-white rounded-full font-bold text-xs tracking-[0.3em] uppercase shadow-premium hover:shadow-premiumHover transition-all hover:scale-[1.02] flex items-center justify-center gap-4 group"
         >
-          {isSubmitting ? <Loader2 className="w-6 h-6 animate-spin" /> : "Transmit Integration"}
+          {isSubmitting ? <Loader2 className="w-6 h-6 animate-spin" /> : "Send Message"}
         </button>
       </div>
     </form>

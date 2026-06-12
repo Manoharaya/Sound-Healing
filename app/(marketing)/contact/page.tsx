@@ -6,7 +6,7 @@ import { ContactForm } from '@/components/forms/ContactForm';
 
 export const metadata = {
   title: "Connect | Lemuria",
-  description: "Reach out to schedule private sessions, corporate wellness programs, or general inquiries.",
+  description: "Reach out to schedule private sessions, workplace wellbeing programs, or general inquiries.",
 };
 
 export default function ContactPage() {
@@ -29,7 +29,7 @@ export default function ContactPage() {
                         Begin Your <br /><span className="text-brand-teal italic font-light">Consultation</span>
                     </h2>
                     <p className="text-brand-text/50 max-w-2xl text-xl font-light leading-relaxed italic border-l-2 border-brand-teal/10 pl-8">
-                        &ldquo;Reach out to schedule private sessions, corporate wellness programs, or to ask questions about our sound therapy, kinesiology and aromatherapy.&rdquo;
+                        &ldquo;Reach out to schedule private sessions, workplace wellbeing programs, or to ask questions about our sound therapy, kinesiology and aromatherapy.&rdquo;
                     </p>
                 </div>
 

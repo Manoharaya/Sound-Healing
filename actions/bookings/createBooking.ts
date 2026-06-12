@@ -8,8 +8,8 @@ import { stripe } from '@/lib/stripe/client';
 import { MOCK_SERVICES, MOCK_WORKSHOPS } from '@/lib/mocks';
 
 const bookingSchema = z.object({
-  service_id: z.string().uuid().optional(),
-  workshop_id: z.string().uuid().optional(),
+  service_id: z.string().optional(),
+  workshop_id: z.string().optional(),
   full_name: z.string().min(1, 'Full name is required'),
   email: z.string().email('Invalid email address'),
   session_date: z.string().min(1, 'Session date is required'),

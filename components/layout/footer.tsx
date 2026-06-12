@@ -61,7 +61,7 @@ export function Footer() {
                         <h4 className="text-white font-bold mb-8 text-[10px] uppercase tracking-[0.2em]">The Path</h4>
                         <ul className="space-y-4">
                             <li><Link href="/services" className="text-white/40 hover:text-white text-sm transition-colors font-light">Services</Link></li>
-                            <li><Link href="/coaching" className="text-white/40 hover:text-white text-sm transition-colors font-light">Corporate Wellbeing</Link></li>
+                            <li><Link href="/coaching" className="text-white/40 hover:text-white text-sm transition-colors font-light">Workplace Wellbeing</Link></li>
                             <li><Link href="/sound-healing" className="text-white/40 hover:text-white text-sm transition-colors font-light">Sound Therapy</Link></li>
                             <li><Link href="/friday-unwind" className="text-white/40 hover:text-white text-sm transition-colors font-light">Friday Sound Session</Link></li>
                             <li><Link href="/saturday-reset" className="text-white/40 hover:text-white text-sm transition-colors font-light">Saturday Sound Session</Link></li>
