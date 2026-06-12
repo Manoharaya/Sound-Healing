@@ -47,7 +47,7 @@ export default function AboutPage() {
               Through expert sound therapy and kinesiology - using clinical sound tools, specialized tuning forks, and muscle monitoring - we support client realignment. This allows the nervous system to naturally transition back into its optimal state of calm.
             </p>
             <p>
-              Our studio was designed intentionally with natural tones, soothing purple accents, and calming forest green environments to promote a sense of security and presence immediately upon entry.
+              Our studio was designed intentionally with natural tones, soothing gold accents, and calming forest green environments to promote a sense of security and presence immediately upon entry.
             </p>
           </div>
           

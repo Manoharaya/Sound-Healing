@@ -49,32 +49,32 @@
   /* Custom Brand Colors from Lemuria */
   --color-brand-bg: #FAF9F6;
   --color-brand-text: #2D2630;
-  --color-brand-teal: #523668;
-  --color-brand-teal-dark: #362147;
-  --color-brand-teal-light: #775A90;
-  --color-brand-gold: #3E604F;
-  --color-brand-beige: #E8E2EE;
+  --color-brand-teal: #2D5A47;
+  --color-brand-teal-dark: #1E3B2F;
+  --color-brand-teal-light: #417E63;
+  --color-brand-gold: #BCA374;
+  --color-brand-beige: #F4EFE6;
 
-  --color-primary-50: #F7F4F9;
-  --color-primary-100: #ECE7F2;
-  --color-primary-200: #DACFE5;
-  --color-primary-300: #C3B3D5;
-  --color-primary-400: #A692C0;
-  --color-primary-500: #523668;
-  --color-primary-600: #462E5A;
-  --color-primary-700: #39254B;
-  --color-primary-800: #2C1D3A;
-  --color-primary-900: #1F142A;
+  --color-primary-50: #F2F7F4;
+  --color-primary-100: #E1ECE6;
+  --color-primary-200: #C3D9CE;
+  --color-primary-300: #A1C2B2;
+  --color-primary-400: #7DA893;
+  --color-primary-500: #2D5A47;
+  --color-primary-600: #254B3B;
+  --color-primary-700: #1D3C2F;
+  --color-primary-800: #152C22;
+  --color-primary-900: #0E1D17;
 
   --spacing-base: 1rem;
   
   --radius-small: 50px;
   --radius-large: 24px;
 
-  --shadow-custom: 0px 8px 40px -4px rgba(82, 54, 104, 0.2);
-  --shadow-custom-hover: 0px 16px 60px -4px rgba(82, 54, 104, 0.35);
-  --shadow-glow: 0 0 40px rgba(82, 54, 104, 0.25);
-  --shadow-glow-gold: 0 0 30px rgba(62, 96, 79, 0.3);
+  --shadow-custom: 0px 8px 40px -4px rgba(45, 90, 71, 0.2);
+  --shadow-custom-hover: 0px 16px 60px -4px rgba(45, 90, 71, 0.35);
+  --shadow-glow: 0 0 40px rgba(45, 90, 71, 0.25);
+  --shadow-glow-gold: 0 0 30px rgba(188, 163, 116, 0.3);
 }
 
 :root {
@@ -84,22 +84,22 @@
   --card-foreground: #2D2630;
   --popover: #FFFFFF;
   --popover-foreground: #2D2630;
-  /* Refined Shadcn Theme mapping to Lemuria Purple + Green */
-  --primary: #523668;         /* Brand Purple */
+  /* Refined Shadcn Theme mapping to Lemuria Green + Gold */
+  --primary: #2D5A47;         /* Brand Green */
   --primary-foreground: #FFFFFF;
   
-  --secondary: #E8E2EE;      /* Soft Lilac */
+  --secondary: #F4EFE6;      /* Warm Beige */
   --secondary-foreground: #2D2630;
   
   --muted: #F0F0F0;
   --muted-foreground: #666666;
   
-  --accent: #3E604F;           /* Brand Green */
+  --accent: #BCA374;           /* Brand Gold */
   --accent-foreground: #FFFFFF;
   --destructive: oklch(0.58 0.22 27);
   --border: #E5E5E5;
   --input: #E5E5E5;
-  --ring: #523668;
+  --ring: #2D5A47;
   --radius: 0.75rem;
 }
 
@@ -157,7 +157,7 @@
 
   .gradient-text-teal {
     @apply text-transparent bg-clip-text;
-    background-image: linear-gradient(135deg, #523668 0%, #775A90 50%, #362147 100%);
+    background-image: linear-gradient(135deg, #2D5A47 0%, #417E63 50%, #1E3B2F 100%);
   }
 
   .glass {
