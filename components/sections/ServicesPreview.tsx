@@ -13,13 +13,30 @@ interface ServicesPreviewProps {
   services: Service[];
 }
 
-const serviceImages = [
-  "/lemuria-assets/services/sound-bowls.jpg",
-  "/lemuria-assets/services/gong.png",
-  "/lemuria-assets/services/singing-bowls.jpg",
-  "/lemuria-assets/services/healing.jpg",
-  "/lemuria-assets/services/healing-session.jpg",
-];
+function getServiceImage(service: Service, index: number): string {
+  const name = (service.title || service.name || "").toLowerCase();
+  if (name.includes("kinesiology")) {
+    return "/lemuria-assets/services/kinesiology.jpg";
+  }
+  if (name.includes("private sound") || (name.includes("sound") && name.includes("therapy") && !name.includes("unwind") && !name.includes("reset") && !name.includes("restoration"))) {
+    return "/lemuria-assets/services/private-sound.jpg";
+  }
+  if (name.includes("aromatherapy")) {
+    return "/lemuria-assets/services/aromatherapy.jpg";
+  }
+  if (name.includes("mind-body") || name.includes("balance")) {
+    return "/lemuria-assets/services/mind-body.jpg";
+  }
+  
+  const serviceImages = [
+    "/lemuria-assets/services/sound-bowls.jpg",
+    "/lemuria-assets/services/gong.png",
+    "/lemuria-assets/services/singing-bowls.jpg",
+    "/lemuria-assets/services/healing.jpg",
+    "/lemuria-assets/services/healing-session.jpg",
+  ];
+  return serviceImages[index % serviceImages.length];
+}
 
 export function ServicesPreview({ services }: ServicesPreviewProps) {
     const pathname = usePathname();
@@ -72,7 +89,7 @@ export function ServicesPreview({ services }: ServicesPreviewProps) {
                                 {/* Background Image with Expansion Effect */}
                                 <div className="absolute inset-0 z-0">
                                     <Image 
-                                        src={serviceImages[index % serviceImages.length]} 
+                                        src={getServiceImage(service, index)} 
                                         alt={service.title || 'Service Image'}
                                         fill
                                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
