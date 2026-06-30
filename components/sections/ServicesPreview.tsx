@@ -93,9 +93,19 @@ export function ServicesPreview({ services }: ServicesPreviewProps) {
                                         alt={service.title || 'Service Image'}
                                         fill
                                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
-                                        className="object-cover transition-all duration-1000 group-hover:scale-110"
+                                        className={`object-cover transition-all duration-1000 group-hover:scale-110 ${(service.title || service.name || "").toLowerCase().includes("kinesiology") ? "group-hover:opacity-0" : ""}`}
                                         quality={95}
                                     />
+                                    {(service.title || service.name || "").toLowerCase().includes("kinesiology") && (
+                                        <Image 
+                                            src="/lemuria-assets/services/kinesiology-hover.jpg" 
+                                            alt={`${service.title || service.name || 'Service Image'} - Alternate`}
+                                            fill
+                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
+                                            className="object-cover absolute inset-0 transition-all duration-1000 opacity-0 group-hover:opacity-100 scale-105 group-hover:scale-110"
+                                            quality={95}
+                                        />
+                                    )}
                                     <div className="absolute inset-0 bg-brand-text/25 group-hover:bg-brand-text/10 transition-all duration-700"></div>
                                     <div className="absolute inset-0 bg-gradient-to-t from-brand-text/75 via-brand-text/15 to-transparent"></div>
                                 </div>
