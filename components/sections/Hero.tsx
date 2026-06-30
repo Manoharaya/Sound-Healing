@@ -91,7 +91,7 @@ export function Hero() {
                             >
                                 Kinesiology | Sound Therapy | Aromatherapy
                             </motion.h2>
-                            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-medium text-brand-text mb-8 leading-[1.05] tracking-tight">
+                            <h1 className="font-serif text-4xl md:text-5xl lg:text-[3.5rem] font-medium text-brand-text mb-8 leading-[1.05] tracking-tight">
                                 <motion.span variants={wordContainerVariants} className="block">
                                     {"Feel More Balanced,".split(" ").map((word, i) => (
                                         <span key={i} className="inline-block overflow-hidden mr-3 pb-2 -mb-2">
@@ -101,7 +101,7 @@ export function Hero() {
                                         </span>
                                     ))}
                                 </motion.span>
-                                <motion.span variants={wordContainerVariants} className="block text-brand-teal italic font-light">
+                                <motion.span variants={wordContainerVariants} className="block text-brand-teal  font-light font-inherit">
                                     {"Calm and Connected".split(" ").map((word, i) => (
                                         <span key={i} className="inline-block overflow-hidden mr-3 pb-2 -mb-2">
                                             <motion.span variants={wordVariants} className="inline-block">
@@ -117,7 +117,7 @@ export function Hero() {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: 0.4 }}
-                            className="max-w-xl text-lg md:text-xl text-brand-text/60 mb-12 leading-relaxed font-light italic"
+                            className="max-w-xl text-lg md:text-xl text-brand-text/60 mb-12 leading-relaxed font-light  font-inherit"
                         >
                             Support your emotional, physical and mental wellbeing through personalised healing sessions designed to help you reduce stress, gain clarity and reconnect with yourself.
                         </motion.p>

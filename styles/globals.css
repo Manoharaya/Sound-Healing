@@ -140,6 +140,7 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    font-family: inherit;
   }
   body {
     @apply bg-background text-foreground font-sans;
@@ -147,9 +148,15 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif font-medium;
   }
+  .italic {
+    font-family: inherit;
+  }
 }
 
 @layer utilities {
+  .font-inherit {
+    font-family: inherit;
+  }
   .gradient-text {
     @apply text-transparent bg-clip-text;
     background-image: linear-gradient(135deg, var(--color-brand-teal) 0%, var(--color-brand-teal-light) 50%, var(--color-brand-gold) 100%);
